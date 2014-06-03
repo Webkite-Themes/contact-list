@@ -1,6 +1,5 @@
 theme:
   name: contact-list-portrait
-  version: 1.0.1
 
 settings:
   pagination:

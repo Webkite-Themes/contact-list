@@ -1,6 +1,5 @@
 theme:
   name: contact-list-table
-  version: 1.0.1
 
 settings:
   pagination:
