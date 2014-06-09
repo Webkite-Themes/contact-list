@@ -3,14 +3,18 @@
     {{#facet name="Image"}}<img src="{{displayValue}}"/>{{/facet}}
   </ul>
   <ul class="sixty">
-    <li>
-      <b>website</b>
-      {{#facet name="Website"}}<span class="facet-values"><a class="webkite-website" href="{{displayValue}}">{{displayValue}}</a></span>{{/facet}}
-    </li>
-    <li>
-      <b>twitter</b>
-      {{#facet name="Twitter"}}<span class="facet-values"><a href="https://twitter.com/{{displayValue}}">{{displayValue}}</a></span>{{/facet}}
-    </li>
+    {{#facet name="Website"}}
+      <li>
+        <b>website</b>
+        <span class="facet-values"><a class="webkite-website" href="{{displayValue}}">{{displayValue}}</a></span>
+      </li>
+    {{/facet}}
+    {{#facet name="Twitter"}}
+      <li>
+        <b>twitter</b>
+        <span class="facet-values"><a href="https://twitter.com/{{displayValue}}">{{displayValue}}</a></span>
+      </li>
+    {{/facet}}
     {{#facet name="University"}}
       <li>
         {{#if filterable}}
@@ -22,16 +26,11 @@
               {{/each}}
             </ul>
           </b>
-        {{else}}
-          <b>{{downcase name}}</b>
-        {{/if}}
-        {{#if filterable}}
           <span class="facet-values">
-            {{#each values}}
-              <a href="#" class="webkite-add-filter" data-facet="{{../name}}" data-operator="is" data-value="{{this}}">{{this}}</a>{{#unless @last}}, <br>{{/unless}}
-            {{/each}}
+            {{#each values}}<a href="#" class="webkite-add-filter" data-facet="{{../name}}" data-operator="is" data-value="{{this}}">{{this}}</a>{{#unless @last}}, <br>{{/unless}}{{/each}}
           </span>
         {{else}}
+          <b>{{downcase name}}</b>
           <span class="facet-values">{{displayValue}}</span>
         {{/if}}
       </li>
@@ -47,24 +46,21 @@
               {{/each}}
             </ul>
           </b>
-        {{else}}
-          <b>{{downcase name}}</b>
-        {{/if}}
-        {{#if filterable}}
           <span class="facet-values">
-            {{#each values}}
-              <a href="#" class="webkite-add-filter" data-facet="{{../name}}" data-operator="is" data-value="{{this}}">{{this}}</a>{{#unless @last}}, <br>{{/unless}}
-            {{/each}}
+            {{#each values}}<a href="#" class="webkite-add-filter" data-facet="{{../name}}" data-operator="is" data-value="{{this}}">{{this}}</a>{{#unless @last}}, <br>{{/unless}}{{/each}}
           </span>
         {{else}}
+          <b>{{downcase name}}</b>
           <span class="facet-values">{{displayValue}}</span>
         {{/if}}
       </li>
     {{/facet}}
-    <li>
-      <b>year of graduation</b>
-      {{#facet name="Year of Graduation"}}<span class="facet-values">{{displayValue}}</span>{{/facet}}
-    </li>
+    {{#facet name="Year of Graduation"}}
+      <li>
+        <b>year of graduation</b>
+        <span class="facet-values">{{displayValue}}</span>
+      </li>
+    {{/facet}}
     {{#facet name="Employer"}}
       <li>
         {{#if filterable}}
@@ -76,16 +72,11 @@
               {{/each}}
             </ul>
           </b>
-        {{else}}
-          <b>{{downcase name}}</b>
-        {{/if}}
-        {{#if filterable}}
           <span class="facet-values">
-            {{#each values}}
-              <a href="#" class="webkite-add-filter" data-facet="{{../name}}" data-operator="is" data-value="{{this}}">{{this}}</a>{{#unless @last}}, <br>{{/unless}}
-            {{/each}}
+            {{#each values}}<a href="#" class="webkite-add-filter" data-facet="{{../name}}" data-operator="is" data-value="{{this}}">{{this}}</a>{{#unless @last}}, <br>{{/unless}}{{/each}}
           </span>
         {{else}}
+          <b>{{downcase name}}</b>
           <span class="facet-values">{{displayValue}}</span>
         {{/if}}
       </li>
@@ -101,23 +92,20 @@
               {{/each}}
             </ul>
           </b>
-        {{else}}
-          <b>{{downcase name}}</b>
-        {{/if}}
-        {{#if filterable}}
           <span class="facet-values">
-            {{#each values}}
-              <a href="#" class="webkite-add-filter" data-facet="{{../name}}" data-operator="is" data-value="{{this}}">{{this}}</a>{{#unless @last}}, <br>{{/unless}}
-            {{/each}}
+            {{#each values}}<a href="#" class="webkite-add-filter" data-facet="{{../name}}" data-operator="is" data-value="{{this}}">{{this}}</a>{{#unless @last}}, <br>{{/unless}}{{/each}}
           </span>
         {{else}}
+          <b>{{downcase name}}</b>
           <span class="facet-values">{{displayValue}}</span>
         {{/if}}
       </li>
     {{/facet}}
-    <li>
-      <b>job title</b>
-      {{#facet name="Job Title"}}<span class="facet-values">{{displayValue}}</span>{{/facet}}
-    </li>
+    {{#facet name="Job Title"}}
+      <li>
+        <b>job title</b>
+        <span class="facet-values">{{displayValue}}</span>
+      </li>
+    {{/facet}}
   </ul>
 </td><!-- webkite-item-details -->
