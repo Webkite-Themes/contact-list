@@ -40,7 +40,9 @@
               </li>
             {{/facet}}
           </ul>
-          <a href="#{{this.id}}" data-id={{this.id}} class="webkite-toggle-item more-button" data-toggle="modal" data-animate="200ms" data-speed="100ms">more</a>
+          {{#any (find facets name="Website") (find facets name="Twitter") (find facets name="University") (find facets name="Degree") (find facets name="Year of Graduation") (find facets name="Employer") (find facets name="Department") (find facets name="Job Title")}}
+            <a href="#{{this.id}}" data-id={{this.id}} class="webkite-toggle-item more-button" data-toggle="modal" data-animate="200ms" data-speed="100ms">more</a>
+          {{/any}}
         <footer class="breaking"></footer>
         </section>
       </div><!-- webkite-result-wrapper -->
