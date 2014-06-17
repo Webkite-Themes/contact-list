@@ -160,7 +160,7 @@ $colorVariant:light;
     -webkit-transform: translateY(-50%) translateX(-50%);
     -ms-transform: translateY(-50%) translateX(-50%);
     transform: translateY(-50%) translateX(-50%);
-    -ms-transform: none\9;
+    -ms-transform: none\9;    
     width:700px\9;
     max-width:700px\9;
     top:0\9;
@@ -281,7 +281,7 @@ $colorVariant:light;
     }
   
   }
-
+  
 /************************************** INLINE FILTERS */
 #webkite-results{
 
@@ -412,6 +412,42 @@ $colorVariant:light;
     li{b, .facet-values{width: 100%;}}  
     }
   }
+  
+/* ie 10/11 modal fixes */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+#webkite-results{
+  .webkite-item-details{
+    width:auto;
+    max-width: 43.750em;
+    left:0;
+    right:0;
+    top:50%;
+    margin-left:50%;
+    margin-right:-50%;
+    -ms-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+    }
+  }
+#webkite-results.xs{
+  .webkite-item-details{
+    max-width: 21.875em;
+    width:auto;
+    left:0;
+    margin-left:50%;
+    margin-right:-50%;
+    }
+  }
+#webkite-results.sm{
+  .webkite-item-details{
+    max-width: 25em;
+    width:auto;
+    left:0;
+    margin-left:50%;
+    margin-right:-50%;
+    }
+  }
+}
+  
   
 #webkite-results.lg, #webkite-results.xl{
   .webkite-result-wrapper{width: 23%;}
