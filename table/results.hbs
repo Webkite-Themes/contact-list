@@ -16,7 +16,7 @@
             {{/if}}
           </th>
           <th class="webkite-address until-xs"><span class="md-only">Address</span></th>
-          <th class="until-sm">Phone</th>
+          <th class="until-sm">{{#with (find ../facets name="Phone Number")}}{{displayName}}{{/with}}</th>
           <th class="open-toggle"></th>
         </tr>
       </thead>
@@ -37,7 +37,7 @@
                   {{/any}}
                   {{#facet name="Email"}}
                     <li>
-                      <b class="xs-only">email</b>
+                      <b class="xs-only">{{downcase displayName}}</b>
                       <span class="facet-values"><a href="mailto:{{displayValue}}" class="webkite-email">{{displayValue}}</a></span>
                     </li>
                   {{/facet}}
@@ -60,7 +60,7 @@
                   {{/any}}
                   {{#facet name="Phone Number"}}
                     <li class="xs-only">
-                      <b>phone number</b>
+                      <b>{{downcase displayName}}</b>
                       <span class="facet-values"><a href="tel:{{displayValue}}">{{displayValue}}</a></span>
                     </li>
                   {{/facet}}
@@ -89,7 +89,7 @@
                   {{/any}}
                   {{#facet name="Phone Number"}}
                     <li class="sm-only">
-                      <b>phone number</b>
+                      <b>{{downcase displayName}}</b>
                       <span class="facet-values"><a href="tel:{{displayValue}}">{{displayValue}}</a></span>
                     </li>
                   {{/facet}}
