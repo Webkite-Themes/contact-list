@@ -38,3 +38,7 @@ assets:
     - paginator.handlebars.js
     - result-details.handlebars.js
 
+preview-images:
+  light:
+    small: light-small.png
+    large: light-large.png
