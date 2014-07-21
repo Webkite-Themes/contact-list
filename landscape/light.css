@@ -610,8 +610,7 @@
   font: 400 .75em/1 "Open Sans";
   padding: 5px 10px;
   margin-top: 20px;
-  text-align: center;
-  width: 4.375em; }
+  text-align: center; }
 #webkite-results a.more-button {
   background: #1b9cd2; }
   #webkite-results a.more-button:hover {
