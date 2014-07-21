@@ -10,12 +10,12 @@
           <th class="image-thumbnail"></th>
           <th class="webkite-name webkite-apply-sort">
             {{#if (contains ../sort.sortableFacets "Last Name")}}
-              <a href="#" data-sort="Last Name" class="{{../../currentDirection}}">Name</a>
+              <a href="#" data-sort="Last Name" class="{{../../currentDirection}}">{{t "Name" default="Name"}}</a>
             {{else}}
-              <span>Name</span>
+              <span>{{t "Name" default="Name"}}</span>
             {{/if}}
           </th>
-          <th class="webkite-address until-xs"><span class="md-only">Address</span></th>
+          <th class="webkite-address until-xs"><span class="md-only">{{t "Address" default="Address"}}</span></th>
           <th class="until-sm">{{#with (find ../facets name="Phone Number")}}{{displayName}}{{/with}}</th>
           <th class="open-toggle"></th>
         </tr>
@@ -43,7 +43,7 @@
                   {{/facet}}
                   {{#any (find facets name="Address 1") (find facets name="City") (find facets name="State") (find facets name="Zip Code") (find facets name="Country") (find facets name="Address 2")}}
                     <li class="xs-only">
-                      <b>address</b>
+                      <b>{{downcase (t "Address" default="address")}}</b>
                       <span class="facet-values address">
                         <a target="_blank" href="http://maps.google.com/?q={{#facet name='Address 1'}}{{displayValue}}{{/facet}} {{#facet name='City'}}{{displayValue}}{{/facet}} {{#facet name='State'}}{{displayValue}}{{/facet}} {{#facet name='Zip Code'}}{{displayValue}}{{/facet}} {{#facet name='Country'}}{{displayValue}}{{/facet}}">
                           {{#facet name="Address 1"}}<span>{{displayValue}}</span>{{/facet}}
@@ -72,7 +72,7 @@
                 <ul>
                   {{#any (find facets name="Address 1") (find facets name="City") (find facets name="State") (find facets name="Zip Code") (find facets name="Country") (find facets name="Address 2")}}
                     <li>
-                      <b class="sm-only">address</b>
+                      <b class="sm-only">{{downcase (t "Address" default="address")}}</b>
                       <span class="facet-values address">
                         <a target="_blank" href="http://maps.google.com/?q={{#facet name='Address 1'}}{{displayValue}}{{/facet}} {{#facet name='City'}}{{displayValue}}{{/facet}} {{#facet name='State'}}{{displayValue}}{{/facet}} {{#facet name='Zip Code'}}{{displayValue}}{{/facet}} {{#facet name='Country'}}{{displayValue}}{{/facet}}">
                           {{#facet name="Address 1"}}<span>{{displayValue}}</span>{{/facet}}
