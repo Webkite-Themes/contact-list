@@ -166,7 +166,7 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    color: #555;
+    color: #777;
     border: 1px solid rgba(255, 255, 255, 0.1);
     padding: 2px;
     margin: 0;
@@ -200,7 +200,7 @@
   width: 20px;
   padding: 15px 0 15px 10px;
   text-indent: -99999px;
-  background: url('select-close.png') no-repeat right center; }
+  background: url('select-close-dark.png') no-repeat right center; }
 
 /************************************** SORTS AND FILTERS */
 #webkite-results {

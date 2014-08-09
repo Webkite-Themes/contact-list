@@ -19,6 +19,7 @@ assets:
 
   images:
     - select-close.png
+    - select-close-dark.png
     - angle-light.png
     - angle-dark.png
     - plus-light.png
