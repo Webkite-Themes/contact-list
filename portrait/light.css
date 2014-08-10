@@ -129,7 +129,7 @@
   margin: -0.15em 0 15px;
   padding: 0; }
   #webkite-results .webkite-dataset-name + .webkite-embed-wrapper {
-    margin: -18px 0 0; }
+    margin: -13px 0 5px; }
 #webkite-results .webkite-embed-wrapper {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -137,9 +137,9 @@
   color: rgba(0, 0, 0, 0.7);
   font-size: 13px;
   line-height: 19px;
-  margin: -15px 0 0;
-  padding: 15px 0;
-  height: 49px;
+  margin: -15px 0 5px;
+  padding: 10px 0;
+  height: 39px;
   position: relative;
   overflow: hidden; }
 #webkite-results #webkite-embedder {
@@ -148,8 +148,8 @@
   box-sizing: border-box;
   font-size: 13px;
   line-height: 19px;
-  padding: 15px 0;
-  height: 49px;
+  padding: 10px 0;
+  height: 39px;
   position: absolute;
   top: -50px;
   right: 0;
@@ -184,7 +184,7 @@
   bottom: 0;
   left: 0;
   width: 70px;
-  padding: 15px 10px 15px 0;
+  padding: 10px 10px 10px 0;
   text-align: left;
   white-space: nowrap;
   overflow: hidden;
@@ -198,7 +198,7 @@
   right: 0;
   bottom: 0;
   width: 20px;
-  padding: 15px 0 15px 10px;
+  padding: 10px 0 10px 10px;
   text-indent: -99999px;
   background: url('select-close.png') no-repeat right center; }
 
@@ -566,22 +566,9 @@
 #webkite-results.xs .webkite-dataset-name {
   text-align: center;
   font-size: 20px; }
-  #webkite-results.xs .webkite-dataset-name + .webkite-embed-wrapper {
-    margin-bottom: 10px; }
-#webkite-results.xs .webkite-embed-wrapper {
-  margin-bottom: 10px;
-  height: 35px;
-  padding: 10px 0; }
 #webkite-results.xs .webkite-embed-wrapper .webkite-embed-show {
   display: block;
   text-align: center; }
-#webkite-results.xs #webkite-embedder {
-  height: 39px;
-  padding: 10px 0; }
-#webkite-results.xs .webkite-embed-select {
-  padding: 10px 10px 10px 0; }
-#webkite-results.xs .webkite-embed-hide {
-  padding: 10px 0 10px 10px; }
 
 #webkite-results.sm .webkite-filter-area, #webkite-results.sm .webkite-sort-area, #webkite-results.sm .webkite-sort-area > .webkite-toggle {
   width: 100%; }
