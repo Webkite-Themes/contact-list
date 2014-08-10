@@ -129,7 +129,7 @@
   margin: -0.15em 0 15px;
   padding: 0; }
   #webkite-results .webkite-dataset-name + .webkite-embed-wrapper {
-    margin: -15px 0 0; }
+    margin: -18px 0 0; }
 #webkite-results .webkite-embed-wrapper {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -137,7 +137,7 @@
   color: rgba(255, 255, 255, 0.8);
   font-size: 13px;
   line-height: 19px;
-  margin: 0;
+  margin: -15px 0 0;
   padding: 15px 0;
   height: 49px;
   position: relative;
@@ -580,8 +580,6 @@
   padding: 10px 0; }
 #webkite-results.xs .webkite-embed-select {
   padding: 10px 10px 10px 0; }
-#webkite-results.xs .webkite-embed-input input {
-  top: -1px; }
 #webkite-results.xs .webkite-embed-hide {
   padding: 10px 0 10px 10px; }
 
