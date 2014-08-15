@@ -10,7 +10,9 @@
     <table>
       <thead class="until-xs">
         <tr>
-          <th class="image-thumbnail"></th>
+          {{#unless (find ../facets name="Image" empty=true)}}
+            <th class="image-thumbnail"></th>
+          {{/unless}}
           <th class="webkite-name webkite-apply-sort">
             {{#if (contains ../sort.sortableFacets "Last Name")}}
               <a href="#" data-sort="Last Name" class="{{../../currentDirection}}">{{t "Name" default="Name"}}</a>
@@ -19,16 +21,18 @@
             {{/if}}
           </th>
           <th class="webkite-address until-xs"><span class="md-only">{{t "Address" default="Address"}}</span></th>
-          <th class="until-sm">{{#with (find ../facets name="Phone Number")}}{{displayName}}{{/with}}</th>
+          <th class="webkite-phone until-sm">{{#with (find ../facets name="Phone Number")}}{{displayName}}{{/with}}</th>
           <th class="open-toggle"></th>
         </tr>
       </thead>
       {{#each this}}
         <tbody>
-          <tr class="webkite-result">      
-            <td class="image-thumbnail until-xs">
-              {{#facet name="Image"}}<div class="image-thumbnail" style="background-image:url({{displayValue}});"></div>{{/facet}}
-            </td>
+          <tr class="webkite-result">
+            {{#unless (find ../../facets name="Image" empty=true)}}    
+              <td class="image-thumbnail until-xs">
+                {{#facet name="Image"}}<div class="image-thumbnail" style="background-image:url({{displayValue}});"></div>{{/facet}}
+              </td>
+            {{/unless}}
             <td class="webkite-name">
               <div class="content-wrapper">
                 <ul>
@@ -48,7 +52,7 @@
                     <li class="xs-only">
                       <b>{{downcase (t "Address" default="address")}}</b>
                       <span class="facet-values address">
-                        <a target="_blank" href="http://maps.google.com/?q={{#facet name='Address 1'}}{{displayValue}}{{/facet}} {{#facet name='City'}}{{displayValue}}{{/facet}} {{#facet name='State'}}{{displayValue}}{{/facet}} {{#facet name='Zip Code'}}{{displayValue}}{{/facet}} {{#facet name='Country'}}{{displayValue}}{{/facet}}">
+                        <a class="webkite-address" target="_blank" href="http://maps.google.com/?q={{#facet name='Address 1'}}{{displayValue}}{{/facet}} {{#facet name='City'}}{{displayValue}}{{/facet}} {{#facet name='State'}}{{displayValue}}{{/facet}} {{#facet name='Zip Code'}}{{displayValue}}{{/facet}} {{#facet name='Country'}}{{displayValue}}{{/facet}}">
                           {{#facet name="Address 1"}}<span>{{displayValue}}</span>{{/facet}}
                           {{#facet name="Address 2"}}<span>{{displayValue}}</span>{{/facet}}
                           <span>
@@ -77,13 +81,13 @@
                     <li>
                       <b class="sm-only">{{downcase (t "Address" default="address")}}</b>
                       <span class="facet-values address">
-                        <a target="_blank" href="http://maps.google.com/?q={{#facet name='Address 1'}}{{displayValue}}{{/facet}} {{#facet name='City'}}{{displayValue}}{{/facet}} {{#facet name='State'}}{{displayValue}}{{/facet}} {{#facet name='Zip Code'}}{{displayValue}}{{/facet}} {{#facet name='Country'}}{{displayValue}}{{/facet}}">
+                        <a class="webkite-address" target="_blank" href="http://maps.google.com/?q={{#facet name='Address 1'}}{{displayValue}}{{/facet}} {{#facet name='City'}}{{displayValue}}{{/facet}} {{#facet name='State'}}{{displayValue}}{{/facet}} {{#facet name='Zip Code'}}{{displayValue}}{{/facet}} {{#facet name='Country'}}{{displayValue}}{{/facet}}">
                           {{#facet name="Address 1"}}<span>{{displayValue}}</span>{{/facet}}
                           {{#facet name="Address 2"}}<span>{{displayValue}}</span>{{/facet}}
                           <span>
                             {{~#facet name="City"}}<span class="city">{{displayValue}}</span>{{/facet}}
                             {{~#facet name="State"}}<span class="state">{{displayValue}}</span>{{/facet}}
-                            {{#facet name="Zip Code"}}{{displayValue}}{{/facet~}}
+                            {{#facet name="Zip Code"}}<span class="zip">{{displayValue}}</span>{{/facet~}}
                           </span>
                           {{~#facet name="Country"}}<span>{{displayValue}}</span>{{/facet}}
                         </a>
@@ -99,7 +103,7 @@
                 </ul>
               </div>
             </td>
-            <td class="md-only">
+            <td class="webkite-phone md-only">
               {{#facet name="Phone Number"}}<a href="tel:{{displayValue}}">{{displayValue}}</a>{{/facet}}
             </td>
             <td class="open-toggle">
@@ -109,9 +113,28 @@
               {{/any}}
             </td>
           </tr>
-          {{#any (find facets name="Image") (find facets name="Website") (find facets name="Twitter") (find facets name="University") (find facets name="Degree") (find facets name="Year of Graduation") (find facets name="Employer") (find facets name="Department") (find facets name="Job Title")}}
-            <tr id="{{this.id}}" class="webkite-item-details">{{>result-details}}</tr>
-          {{/any}}
+          
+          {{#if (find ../../facets name="Image" empty=true)}}
+            {{#any (find facets name="Image") (find facets name="Website") (find facets name="Twitter") (find facets name="University") (find facets name="Degree") (find facets name="Year of Graduation") (find facets name="Employer") (find facets name="Department") (find facets name="Job Title")}}
+              <tr id="{{this.id}}" class="webkite-item-details">
+                <td class="until-xs"></td>
+                <td colspan="3">
+                  {{>result-details}}
+                </td>
+              </tr>
+            {{/any}}
+          {{else}}
+            {{#any (find facets name="Image") (find facets name="Website") (find facets name="Twitter") (find facets name="University") (find facets name="Degree") (find facets name="Year of Graduation") (find facets name="Employer") (find facets name="Department") (find facets name="Job Title")}}
+              <tr id="{{this.id}}" class="webkite-item-details">
+                <td colspan="2" class="webkite-full-image until-xs">
+                  <ul>{{#facet name="Image"}}<img src="{{displayValue}}"/>{{/facet}}</ul>
+                </td>
+                <td colspan="3">      
+                  {{>result-details}}
+                </td>
+              </tr>
+            {{/any}}
+          {{/if}}
         </tbody>
       {{/each}}
     </table>
