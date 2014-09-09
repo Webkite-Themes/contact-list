@@ -1,8 +1,8 @@
 @import url("//fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700");
 /* RESET */
-#webkite-results {
+#webkite-results.contact-list-landscape {
   /* HTML5 display-role reset for older browsers */ }
-  #webkite-results div, #webkite-results span, #webkite-results applet, #webkite-results object, #webkite-results iframe, #webkite-results h1, #webkite-results h2, #webkite-results h3, #webkite-results h4, #webkite-results h5, #webkite-results h6, #webkite-results p, #webkite-results blockquote, #webkite-results pre, #webkite-results a, #webkite-results abbr, #webkite-results acronym, #webkite-results address, #webkite-results big, #webkite-results cite, #webkite-results code, #webkite-results del, #webkite-results dfn, #webkite-results em, #webkite-results img, #webkite-results ins, #webkite-results kbd, #webkite-results q, #webkite-results s, #webkite-results samp, #webkite-results small, #webkite-results strike, #webkite-results strong, #webkite-results sub, #webkite-results sup, #webkite-results tt, #webkite-results var, #webkite-results b, #webkite-results u, #webkite-results i, #webkite-results center, #webkite-results dl, #webkite-results dt, #webkite-results dd, #webkite-results ol, #webkite-results ul, #webkite-results li, #webkite-results fieldset, #webkite-results form, #webkite-results label, #webkite-results legend, #webkite-results table, #webkite-results caption, #webkite-results tbody, #webkite-results tfoot, #webkite-results thead, #webkite-results tr, #webkite-results th, #webkite-results td, #webkite-results article, #webkite-results aside, #webkite-results canvas, #webkite-results details, #webkite-results embed, #webkite-results figure, #webkite-results figcaption, #webkite-results footer, #webkite-results header, #webkite-results hgroup, #webkite-results menu, #webkite-results nav, #webkite-results output, #webkite-results ruby, #webkite-results section, #webkite-results summary, #webkite-results time, #webkite-results mark, #webkite-results audio, #webkite-results video {
+  #webkite-results.contact-list-landscape div, #webkite-results.contact-list-landscape span, #webkite-results.contact-list-landscape applet, #webkite-results.contact-list-landscape object, #webkite-results.contact-list-landscape iframe, #webkite-results.contact-list-landscape h1, #webkite-results.contact-list-landscape h2, #webkite-results.contact-list-landscape h3, #webkite-results.contact-list-landscape h4, #webkite-results.contact-list-landscape h5, #webkite-results.contact-list-landscape h6, #webkite-results.contact-list-landscape p, #webkite-results.contact-list-landscape blockquote, #webkite-results.contact-list-landscape pre, #webkite-results.contact-list-landscape a, #webkite-results.contact-list-landscape abbr, #webkite-results.contact-list-landscape acronym, #webkite-results.contact-list-landscape address, #webkite-results.contact-list-landscape big, #webkite-results.contact-list-landscape cite, #webkite-results.contact-list-landscape code, #webkite-results.contact-list-landscape del, #webkite-results.contact-list-landscape dfn, #webkite-results.contact-list-landscape em, #webkite-results.contact-list-landscape img, #webkite-results.contact-list-landscape ins, #webkite-results.contact-list-landscape kbd, #webkite-results.contact-list-landscape q, #webkite-results.contact-list-landscape s, #webkite-results.contact-list-landscape samp, #webkite-results.contact-list-landscape small, #webkite-results.contact-list-landscape strike, #webkite-results.contact-list-landscape strong, #webkite-results.contact-list-landscape sub, #webkite-results.contact-list-landscape sup, #webkite-results.contact-list-landscape tt, #webkite-results.contact-list-landscape var, #webkite-results.contact-list-landscape b, #webkite-results.contact-list-landscape u, #webkite-results.contact-list-landscape i, #webkite-results.contact-list-landscape center, #webkite-results.contact-list-landscape dl, #webkite-results.contact-list-landscape dt, #webkite-results.contact-list-landscape dd, #webkite-results.contact-list-landscape ol, #webkite-results.contact-list-landscape ul, #webkite-results.contact-list-landscape li, #webkite-results.contact-list-landscape fieldset, #webkite-results.contact-list-landscape form, #webkite-results.contact-list-landscape label, #webkite-results.contact-list-landscape legend, #webkite-results.contact-list-landscape table, #webkite-results.contact-list-landscape caption, #webkite-results.contact-list-landscape tbody, #webkite-results.contact-list-landscape tfoot, #webkite-results.contact-list-landscape thead, #webkite-results.contact-list-landscape tr, #webkite-results.contact-list-landscape th, #webkite-results.contact-list-landscape td, #webkite-results.contact-list-landscape article, #webkite-results.contact-list-landscape aside, #webkite-results.contact-list-landscape canvas, #webkite-results.contact-list-landscape details, #webkite-results.contact-list-landscape embed, #webkite-results.contact-list-landscape figure, #webkite-results.contact-list-landscape figcaption, #webkite-results.contact-list-landscape footer, #webkite-results.contact-list-landscape header, #webkite-results.contact-list-landscape hgroup, #webkite-results.contact-list-landscape menu, #webkite-results.contact-list-landscape nav, #webkite-results.contact-list-landscape output, #webkite-results.contact-list-landscape ruby, #webkite-results.contact-list-landscape section, #webkite-results.contact-list-landscape summary, #webkite-results.contact-list-landscape time, #webkite-results.contact-list-landscape mark, #webkite-results.contact-list-landscape audio, #webkite-results.contact-list-landscape video {
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -24,35 +24,35 @@
     -ms-transition: none;
     -o-transition: all 0 none;
     transition: none; }
-  #webkite-results button, #webkite-results select, #webkite-results input {
+  #webkite-results.contact-list-landscape button, #webkite-results.contact-list-landscape select, #webkite-results.contact-list-landscape input {
     text-transform: none; }
-    #webkite-results button:active, #webkite-results select:active, #webkite-results input:active {
+    #webkite-results.contact-list-landscape button:active, #webkite-results.contact-list-landscape select:active, #webkite-results.contact-list-landscape input:active {
       -moz-box-shadow: none;
       -webkit-box-shadow: none;
       box-shadow: none; }
-  #webkite-results button::-moz-focus-inner {
+  #webkite-results.contact-list-landscape button::-moz-focus-inner {
     padding: 0;
     border: 0; }
-  #webkite-results article, #webkite-results aside, #webkite-results details, #webkite-results figcaption, #webkite-results figure, #webkite-results footer, #webkite-results header, #webkite-results hgroup, #webkite-results menu, #webkite-results nav, #webkite-results section {
+  #webkite-results.contact-list-landscape article, #webkite-results.contact-list-landscape aside, #webkite-results.contact-list-landscape details, #webkite-results.contact-list-landscape figcaption, #webkite-results.contact-list-landscape figure, #webkite-results.contact-list-landscape footer, #webkite-results.contact-list-landscape header, #webkite-results.contact-list-landscape hgroup, #webkite-results.contact-list-landscape menu, #webkite-results.contact-list-landscape nav, #webkite-results.contact-list-landscape section {
     display: block; }
-  #webkite-results body {
+  #webkite-results.contact-list-landscape body {
     line-height: 1; }
-  #webkite-results ol, #webkite-results ul, #webkite-results ul li {
+  #webkite-results.contact-list-landscape ol, #webkite-results.contact-list-landscape ul, #webkite-results.contact-list-landscape ul li {
     list-style: none; }
-  #webkite-results blockquote, #webkite-results q {
+  #webkite-results.contact-list-landscape blockquote, #webkite-results.contact-list-landscape q {
     quotes: none; }
-  #webkite-results blockquote:before, #webkite-results blockquote:after {
+  #webkite-results.contact-list-landscape blockquote:before, #webkite-results.contact-list-landscape blockquote:after {
     content: '';
     content: none; }
-  #webkite-results q:before, #webkite-results q:after {
+  #webkite-results.contact-list-landscape q:before, #webkite-results.contact-list-landscape q:after {
     content: '';
     content: none; }
-  #webkite-results table {
+  #webkite-results.contact-list-landscape table {
     border-collapse: collapse;
     border-spacing: 0; }
 
 /****************************************** BEGIN STYLES */
-#webkite-results {
+#webkite-results.contact-list-landscape {
   background: rgba(0, 0, 0, 0.9);
   border: 1px solid rgba(255, 255, 255, 0.1);
   -webkit-border-radius: 0.625em;
@@ -69,18 +69,18 @@
   font-family: "Open Sans";
   font: 400 16px/normal "Open Sans";
   font-size: 16px; }
-  #webkite-results a {
+  #webkite-results.contact-list-landscape a {
     color: #1b9cd2;
     text-decoration: none; }
-    #webkite-results a:hover {
+    #webkite-results.contact-list-landscape a:hover {
       color: #0073a7; }
-  #webkite-results.webkite-fade-out img {
+  #webkite-results.contact-list-landscape.webkite-fade-out img {
     opacity: 0.5; }
 
 /* TYPOGRAPHY */
-#webkite-results h1, #webkite-results h2 {
+#webkite-results.contact-list-landscape h1, #webkite-results.contact-list-landscape h2 {
   margin: 0; }
-#webkite-results h2 {
+#webkite-results.contact-list-landscape h2 {
   word-wrap: break-word;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
@@ -89,39 +89,39 @@
   display: inline-block;
   font: 700 1.5em/1 "Open Sans";
   color: rgba(255, 255, 255, 0.8); }
-#webkite-results p, #webkite-results li {
+#webkite-results.contact-list-landscape p, #webkite-results.contact-list-landscape li {
   color: rgba(255, 255, 255, 0.7); }
 
 /******************************************** NAVIGATIONALS */
-#webkite-results .webkite-results-header, #webkite-results .webkite-results-footer {
+#webkite-results.contact-list-landscape .webkite-results-header, #webkite-results.contact-list-landscape .webkite-results-footer {
   text-align: justify;
   position: relative; }
-  #webkite-results .webkite-results-header .webkite-sort-area, #webkite-results .webkite-results-header .webkite-filter-area, #webkite-results .webkite-results-footer .webkite-sort-area, #webkite-results .webkite-results-footer .webkite-filter-area {
+  #webkite-results.contact-list-landscape .webkite-results-header .webkite-sort-area, #webkite-results.contact-list-landscape .webkite-results-header .webkite-filter-area, #webkite-results.contact-list-landscape .webkite-results-footer .webkite-sort-area, #webkite-results.contact-list-landscape .webkite-results-footer .webkite-filter-area {
     display: inline-block;
     vertical-align: top; }
-  #webkite-results .webkite-results-header .webkite-branding-area, #webkite-results .webkite-results-footer .webkite-branding-area {
+  #webkite-results.contact-list-landscape .webkite-results-header .webkite-branding-area, #webkite-results.contact-list-landscape .webkite-results-footer .webkite-branding-area {
     width: 102px;
     margin-right: -102px;
     display: inline-block;
     position: relative; }
-  #webkite-results .webkite-results-header .webkite-branding-area a, #webkite-results .webkite-results-footer .webkite-branding-area a {
+  #webkite-results.contact-list-landscape .webkite-results-header .webkite-branding-area a, #webkite-results.contact-list-landscape .webkite-results-footer .webkite-branding-area a {
     background: url("branding-dark.svg") center top no-repeat;
     background-size: 100%;
     display: inline-block;
     height: 34px;
     width: 102px; }
-#webkite-results .webkite-results-header {
+#webkite-results.contact-list-landscape .webkite-results-header {
   line-height: 1;
   margin-bottom: 20px; }
-  #webkite-results .webkite-results-header::after {
+  #webkite-results.contact-list-landscape .webkite-results-header::after {
     content: '';
     clear: both;
     display: table; }
-#webkite-results .webkite-results-footer {
+#webkite-results.contact-list-landscape .webkite-results-footer {
   font-size: 14px; }
 
 /************************************** DATASET NAME & EMBED */
-#webkite-results .webkite-dataset-name {
+#webkite-results.contact-list-landscape .webkite-dataset-name {
   color: rgba(255, 255, 255, 0.8);
   font-size: 22px;
   font-weight: bold;
@@ -129,9 +129,9 @@
   line-height: 1.1em;
   margin: -0.15em 0 15px;
   padding: 0; }
-  #webkite-results .webkite-dataset-name + .webkite-embed-wrapper {
+  #webkite-results.contact-list-landscape .webkite-dataset-name + .webkite-embed-wrapper {
     margin: -13px 0 5px; }
-#webkite-results .webkite-embed-wrapper {
+#webkite-results.contact-list-landscape .webkite-embed-wrapper {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -143,7 +143,7 @@
   height: 39px;
   position: relative;
   overflow: hidden; }
-#webkite-results #webkite-embedder {
+#webkite-results.contact-list-landscape #webkite-embedder {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -156,9 +156,9 @@
   right: 0;
   left: 0;
   z-index: 1; }
-#webkite-results .webkite-embed-input {
+#webkite-results.contact-list-landscape .webkite-embed-input {
   padding: 0 20px 0 70px; }
-  #webkite-results .webkite-embed-input input {
+  #webkite-results.contact-list-landscape .webkite-embed-input input {
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
@@ -176,7 +176,7 @@
     position: relative;
     width: 100%;
     top: -1px; }
-#webkite-results .webkite-embed-select {
+#webkite-results.contact-list-landscape .webkite-embed-select {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -190,7 +190,7 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis; }
-#webkite-results .webkite-embed-hide {
+#webkite-results.contact-list-landscape .webkite-embed-hide {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -204,12 +204,12 @@
   background: url('select-close-dark.png') no-repeat right center; }
 
 /************************************** SORTS AND FILTERS */
-#webkite-results {
+#webkite-results.contact-list-landscape {
   /* sorts */
   /* filters */
   /* tokens */
   /* clear everything */ }
-  #webkite-results .webkite-sort-area > .webkite-toggle, #webkite-results .webkite-primary-filter-menu > .webkite-toggle {
+  #webkite-results.contact-list-landscape .webkite-sort-area > .webkite-toggle, #webkite-results.contact-list-landscape .webkite-primary-filter-menu > .webkite-toggle {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -232,7 +232,7 @@
     height: 28px;
     width: 80px;
     white-space: nowrap; }
-    #webkite-results .webkite-sort-area > .webkite-toggle > span, #webkite-results .webkite-primary-filter-menu > .webkite-toggle > span {
+    #webkite-results.contact-list-landscape .webkite-sort-area > .webkite-toggle > span, #webkite-results.contact-list-landscape .webkite-primary-filter-menu > .webkite-toggle > span {
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box;
@@ -242,10 +242,10 @@
       text-overflow: ellipsis;
       padding-left: 8px;
       width: 100%; }
-  #webkite-results .webkite-sort-area {
+  #webkite-results.contact-list-landscape .webkite-sort-area {
     position: relative;
     z-index: 3; }
-  #webkite-results .webkite-sort-area > .webkite-toggle i {
+  #webkite-results.contact-list-landscape .webkite-sort-area > .webkite-toggle i {
     background: url("angle-dark.png") center center no-repeat;
     height: 10px;
     pointer-events: none;
@@ -254,30 +254,30 @@
     top: 50%;
     margin-top: -5px;
     right: 8px; }
-  #webkite-results .webkite-filter-area {
+  #webkite-results.contact-list-landscape .webkite-filter-area {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     width: 100%;
     position: relative; }
-  #webkite-results .webkite-sort-area + .webkite-filter-area {
+  #webkite-results.contact-list-landscape .webkite-sort-area + .webkite-filter-area {
     padding-left: 90px;
     margin-left: -80px; }
-  #webkite-results .webkite-applied-filters {
+  #webkite-results.contact-list-landscape .webkite-applied-filters {
     position: relative; }
-  #webkite-results .webkite-primary-filter-menu {
+  #webkite-results.contact-list-landscape .webkite-primary-filter-menu {
     position: absolute;
     left: 0;
     top: 0;
     vertical-align: top;
     z-index: 2; }
-  #webkite-results .webkite-primary-filter-menu > .webkite-toggle {
+  #webkite-results.contact-list-landscape .webkite-primary-filter-menu > .webkite-toggle {
     -webkit-border-radius: 3px 0 0 3px;
     -moz-border-radius: 3px 0 0 3px;
     -ms-border-radius: 3px 0 0 3px;
     -o-border-radius: 3px 0 0 3px;
     border-radius: 3px 0 0 3px; }
-  #webkite-results .webkite-primary-filter-menu > .webkite-toggle i {
+  #webkite-results.contact-list-landscape .webkite-primary-filter-menu > .webkite-toggle i {
     background: url("plus-dark.png") no-repeat;
     height: 12px;
     width: 12px;
@@ -286,7 +286,7 @@
     top: 50%;
     margin-top: -6px;
     right: 6px; }
-  #webkite-results .current-filters {
+  #webkite-results.contact-list-landscape .current-filters {
     -webkit-border-radius: 0 3px 3px 0;
     -moz-border-radius: 0 3px 3px 0;
     -ms-border-radius: 0 3px 3px 0;
@@ -306,21 +306,21 @@
     text-align: left;
     vertical-align: top;
     /* and & or */ }
-    #webkite-results .current-filters span {
+    #webkite-results.contact-list-landscape .current-filters span {
       color: rgba(127, 127, 127, 0.7);
       font-size: 14px;
       line-height: 1.2em;
       padding: 0 0.41667em 0 0;
       vertical-align: top; }
-  #webkite-results .filter-token-wrapper {
+  #webkite-results.contact-list-landscape .filter-token-wrapper {
     display: inline-block;
     max-width: 100%;
     overflow: hidden;
     white-space: nowrap;
     width: 100%; }
-    #webkite-results .filter-token-wrapper > span:first-child {
+    #webkite-results.contact-list-landscape .filter-token-wrapper > span:first-child {
       padding-left: 0.41667em; }
-  #webkite-results a.webkite-remove-filter {
+  #webkite-results.contact-list-landscape a.webkite-remove-filter {
     display: inline-block;
     max-width: 100%;
     overflow: hidden;
@@ -339,36 +339,36 @@
     text-align: left;
     word-wrap: normal;
     margin-right: 0.41667em; }
-    #webkite-results a.webkite-remove-filter:hover {
+    #webkite-results.contact-list-landscape a.webkite-remove-filter:hover {
       text-decoration: line-through; }
-  #webkite-results [class^="filter-group"] {
+  #webkite-results.contact-list-landscape [class^="filter-group"] {
     display: inline-block; }
-  #webkite-results .filter-group-0 a.webkite-remove-filter {
+  #webkite-results.contact-list-landscape .filter-group-0 a.webkite-remove-filter {
     background: #1b9cd2; }
-  #webkite-results .filter-group-1 a.webkite-remove-filter {
+  #webkite-results.contact-list-landscape .filter-group-1 a.webkite-remove-filter {
     background: #39a17c; }
-  #webkite-results .filter-group-2 a.webkite-remove-filter {
+  #webkite-results.contact-list-landscape .filter-group-2 a.webkite-remove-filter {
     background: #a8936f; }
-  #webkite-results .filter-group-3 a.webkite-remove-filter {
+  #webkite-results.contact-list-landscape .filter-group-3 a.webkite-remove-filter {
     background: #e6af52; }
-  #webkite-results .filter-group-4 a.webkite-remove-filter {
+  #webkite-results.contact-list-landscape .filter-group-4 a.webkite-remove-filter {
     background: #6f7ca8; }
-  #webkite-results a.webkite-clear-filters {
+  #webkite-results.contact-list-landscape a.webkite-clear-filters {
     background: url("clear-all-icon.png") center top no-repeat;
     height: 18px;
     width: 18px;
     position: absolute;
     right: 4px;
     top: 4px; }
-    #webkite-results a.webkite-clear-filters:active {
+    #webkite-results.contact-list-landscape a.webkite-clear-filters:active {
       background-position: 0 -18px; }
 
 /**************************************** SORT/FILTER MENU */
-#webkite-results {
+#webkite-results.contact-list-landscape {
   /* directional arrow */
   /* filter arrow */
   /* filter submenu*/ }
-  #webkite-results .sort-menu, #webkite-results .filter-menu {
+  #webkite-results.contact-list-landscape .sort-menu, #webkite-results.contact-list-landscape .filter-menu {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     -ms-border-radius: 3px;
@@ -388,22 +388,22 @@
     z-index: 4;
     top: 10px;
     left: 10px; }
-  #webkite-results .sort-menu li, #webkite-results .filter-menu li {
+  #webkite-results.contact-list-landscape .sort-menu li, #webkite-results.contact-list-landscape .filter-menu li {
     list-style-type: none;
     position: relative;
     padding-bottom: 0; }
-  #webkite-results .sort-menu li a, #webkite-results .filter-menu li .webkite-link, #webkite-results .filter-menu li a {
+  #webkite-results.contact-list-landscape .sort-menu li a, #webkite-results.contact-list-landscape .filter-menu li .webkite-link, #webkite-results.contact-list-landscape .filter-menu li a {
     color: #1b9cd2;
     display: block;
     padding: 2px 10px;
     white-space: pre; }
-    #webkite-results .sort-menu li a:hover, #webkite-results .filter-menu li .webkite-link:hover, #webkite-results .filter-menu li a:hover {
+    #webkite-results.contact-list-landscape .sort-menu li a:hover, #webkite-results.contact-list-landscape .filter-menu li .webkite-link:hover, #webkite-results.contact-list-landscape .filter-menu li a:hover {
       background: #1b9cd2;
       color: white; }
-  #webkite-results .sort-menu li.active a {
+  #webkite-results.contact-list-landscape .sort-menu li.active a {
     position: relative;
     padding-right: 30px; }
-    #webkite-results .sort-menu li.active a.asc::after, #webkite-results .sort-menu li.active a.desc::after {
+    #webkite-results.contact-list-landscape .sort-menu li.active a.asc::after, #webkite-results.contact-list-landscape .sort-menu li.active a.desc::after {
       background: url("sort-direction.png") no-repeat;
       content: "";
       display: block;
@@ -412,22 +412,22 @@
       position: absolute;
       top: 8px;
       right: 10px; }
-    #webkite-results .sort-menu li.active a.asc::after {
+    #webkite-results.contact-list-landscape .sort-menu li.active a.asc::after {
       background-position: 0 0; }
-    #webkite-results .sort-menu li.active a.desc::after {
+    #webkite-results.contact-list-landscape .sort-menu li.active a.desc::after {
       background-position: 0 -5px; }
-  #webkite-results .filter-menu > li > .webkite-link {
+  #webkite-results.contact-list-landscape .filter-menu > li > .webkite-link {
     color: #1b9cd2;
     cursor: pointer;
     padding-right: 20px;
     position: relative; }
-    #webkite-results .filter-menu > li > .webkite-link::after {
+    #webkite-results.contact-list-landscape .filter-menu > li > .webkite-link::after {
       color: rgba(127, 127, 127, 0.7);
       content: "\203A";
       opacity: 0.5;
       position: absolute;
       right: 6.66667px; }
-  #webkite-results .filter-menu-child {
+  #webkite-results.contact-list-landscape .filter-menu-child {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     -ms-border-radius: 3px;
@@ -445,11 +445,11 @@
     left: 100%;
     top: -10px;
     margin: 0; }
-  #webkite-results .filter-menu li:hover .filter-menu-child {
+  #webkite-results.contact-list-landscape .filter-menu li:hover .filter-menu-child {
     display: block; }
 
 /******************************* FILTER OVERVIEW AND SHADE */
-#webkite-results .filter-token-wrapper.webkite-truncated:before {
+#webkite-results.contact-list-landscape .filter-token-wrapper.webkite-truncated:before {
   content: "";
   background: url("gradient-fallback-dark.png") repeat-y;
   background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 5%, rgba(0, 0, 0, 0.2) 25%, rgba(0, 0, 0, 0.05) 75%, rgba(0, 0, 0, 0) 100%);
@@ -465,7 +465,7 @@
   left: -1px;
   top: -1px;
   bottom: -1px; }
-#webkite-results .all-current-filters {
+#webkite-results.contact-list-landscape .all-current-filters {
   -webkit-border-radius: 0 3px 3px 3px;
   -moz-border-radius: 0 3px 3px 3px;
   -ms-border-radius: 0 3px 3px 3px;
@@ -483,18 +483,18 @@
   right: -1px;
   left: -1px;
   z-index: 3; }
-  #webkite-results .all-current-filters .all-filters-wrapper {
+  #webkite-results.contact-list-landscape .all-current-filters .all-filters-wrapper {
     white-space: normal; }
-    #webkite-results .all-current-filters .all-filters-wrapper > span:first-child {
+    #webkite-results.contact-list-landscape .all-current-filters .all-filters-wrapper > span:first-child {
       padding-left: 0; }
-    #webkite-results .all-current-filters .all-filters-wrapper [class^="filter-group"] {
+    #webkite-results.contact-list-landscape .all-current-filters .all-filters-wrapper [class^="filter-group"] {
       display: inline; }
 
 /********************************************* PAGINATION */
-#webkite-results {
+#webkite-results.contact-list-landscape {
   /* page input */
   /* remove arrows */ }
-  #webkite-results .webkite-pagination-area {
+  #webkite-results.contact-list-landscape .webkite-pagination-area {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -505,32 +505,32 @@
     display: inline-block;
     vertical-align: top;
     line-height: 34px; }
-    #webkite-results .webkite-pagination-area:empty {
+    #webkite-results.contact-list-landscape .webkite-pagination-area:empty {
       display: none; }
-  #webkite-results .webkite-results-paginator {
+  #webkite-results.contact-list-landscape .webkite-results-paginator {
     font-size: 14px; }
-    #webkite-results .webkite-results-paginator a, #webkite-results .webkite-results-paginator p {
+    #webkite-results.contact-list-landscape .webkite-results-paginator a, #webkite-results.contact-list-landscape .webkite-results-paginator p {
       display: inline; }
-    #webkite-results .webkite-results-paginator em {
+    #webkite-results.contact-list-landscape .webkite-results-paginator em {
       font-style: italic; }
-    #webkite-results .webkite-results-paginator a {
+    #webkite-results.contact-list-landscape .webkite-results-paginator a {
       font-size: 1.2em;
       line-height: 0; }
-  #webkite-results .first-result-page, #webkite-results .previous-result-page {
+  #webkite-results.contact-list-landscape .first-result-page, #webkite-results.contact-list-landscape .previous-result-page {
     padding-right: 10px; }
-    #webkite-results .first-result-page.disabled, #webkite-results .previous-result-page.disabled {
+    #webkite-results.contact-list-landscape .first-result-page.disabled, #webkite-results.contact-list-landscape .previous-result-page.disabled {
       color: rgba(255, 255, 255, 0.7); }
-      #webkite-results .first-result-page.disabled:hover, #webkite-results .previous-result-page.disabled:hover {
+      #webkite-results.contact-list-landscape .first-result-page.disabled:hover, #webkite-results.contact-list-landscape .previous-result-page.disabled:hover {
         color: rgba(255, 255, 255, 0.7);
         cursor: default; }
-  #webkite-results .next-result-page, #webkite-results .last-result-page {
+  #webkite-results.contact-list-landscape .next-result-page, #webkite-results.contact-list-landscape .last-result-page {
     padding-left: 10px; }
-    #webkite-results .next-result-page.disabled, #webkite-results .last-result-page.disabled {
+    #webkite-results.contact-list-landscape .next-result-page.disabled, #webkite-results.contact-list-landscape .last-result-page.disabled {
       color: rgba(255, 255, 255, 0.7); }
-      #webkite-results .next-result-page.disabled:hover, #webkite-results .last-result-page.disabled:hover {
+      #webkite-results.contact-list-landscape .next-result-page.disabled:hover, #webkite-results.contact-list-landscape .last-result-page.disabled:hover {
         color: rgba(255, 255, 255, 0.7);
         cursor: default; }
-  #webkite-results input.webkite-page-input {
+  #webkite-results.contact-list-landscape input.webkite-page-input {
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
@@ -538,95 +538,102 @@
     border-radius: 2px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     color: rgba(127, 127, 127, 0.7);
+    display: inline-block;
     padding: 5px;
     -moz-appearance: textfield;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    box-sizing: content-box;
+    margin: 0;
     max-width: 1.5em;
     font-size: 0.9em;
+    line-height: 16px;
     text-align: center; }
-  #webkite-results .webkite-page-input::-webkit-outer-spin-button, #webkite-results .webkite-page-input::-webkit-inner-spin-button {
+  #webkite-results.contact-list-landscape .webkite-page-input::-webkit-outer-spin-button, #webkite-results.contact-list-landscape .webkite-page-input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0; }
-  #webkite-results input[type=number] {
+  #webkite-results.contact-list-landscape input[type=number] {
     -moz-appearance: textfield; }
 
 /************************************** ELEMENT QUERIES */
-#webkite-results.xs .webkite-branding-area, #webkite-results.xs .webkite-pagination-area {
+#webkite-results.xs.contact-list-landscape .webkite-branding-area, #webkite-results.xs.contact-list-landscape .webkite-pagination-area {
   width: 100%;
   padding: 0;
   margin: 0;
   text-align: center; }
-#webkite-results.xs .webkite-filter-area, #webkite-results.xs .webkite-sort-area, #webkite-results.xs .webkite-sort-area > .webkite-toggle {
+#webkite-results.xs.contact-list-landscape .webkite-filter-area, #webkite-results.xs.contact-list-landscape .webkite-sort-area, #webkite-results.xs.contact-list-landscape .webkite-sort-area > .webkite-toggle {
   width: 100%; }
-#webkite-results.xs .sort-menu {
+#webkite-results.xs.contact-list-landscape .sort-menu {
   width: 95%; }
-#webkite-results.xs .webkite-sort-area + .webkite-filter-area {
+#webkite-results.xs.contact-list-landscape .webkite-sort-area + .webkite-filter-area {
   margin-top: 20px; }
-#webkite-results.xs .webkite-filter-area, #webkite-results.xs .webkite-sort-area + .webkite-filter-area {
+#webkite-results.xs.contact-list-landscape .webkite-filter-area, #webkite-results.xs.contact-list-landscape .webkite-sort-area + .webkite-filter-area {
   margin-left: 0;
   padding-left: 0; }
-#webkite-results.xs .webkite-branding-area + .webkite-pagination-area {
+#webkite-results.xs.contact-list-landscape .webkite-branding-area + .webkite-pagination-area {
   margin-top: 20px; }
-#webkite-results.xs .webkite-dataset-name {
+#webkite-results.xs.contact-list-landscape .webkite-dataset-name {
   text-align: center;
   font-size: 20px; }
-#webkite-results.xs .webkite-embed-wrapper .webkite-embed-show {
+#webkite-results.xs.contact-list-landscape .webkite-embed-wrapper .webkite-embed-show {
   display: block;
   text-align: center; }
 
-#webkite-results.sm .webkite-filter-area, #webkite-results.sm .webkite-sort-area, #webkite-results.sm .webkite-sort-area > .webkite-toggle {
+#webkite-results.sm.contact-list-landscape .webkite-filter-area, #webkite-results.sm.contact-list-landscape .webkite-sort-area, #webkite-results.sm.contact-list-landscape .webkite-sort-area > .webkite-toggle {
   width: 100%; }
-#webkite-results.sm .sort-menu {
+#webkite-results.sm.contact-list-landscape .sort-menu {
   width: 95%; }
-#webkite-results.sm .webkite-sort-area + .webkite-filter-area {
+#webkite-results.sm.contact-list-landscape .webkite-sort-area + .webkite-filter-area {
   margin-top: 20px; }
-#webkite-results.sm .webkite-filter-area, #webkite-results.sm .webkite-sort-area + .webkite-filter-area {
+#webkite-results.sm.contact-list-landscape .webkite-filter-area, #webkite-results.sm.contact-list-landscape .webkite-sort-area + .webkite-filter-area {
   margin-left: 0;
   padding-left: 0; }
 
 /********************************************** BLOCKS */
-#webkite-results .webkite-block {
+#webkite-results.contact-list-landscape .webkite-block {
   display: inline-block;
   vertical-align: top;
   text-align: left;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
-  #webkite-results .webkite-block:first-child {
+  #webkite-results.contact-list-landscape .webkite-block:first-child {
     padding-right: 20px; }
-  #webkite-results .webkite-block ul {
+  #webkite-results.contact-list-landscape .webkite-block ul {
     margin: 0;
     -webkit-padding-start: 0;
     -moz-padding-start: 0; }
-    #webkite-results .webkite-block ul li {
+    #webkite-results.contact-list-landscape .webkite-block ul li {
       list-style-type: none;
       text-align: justify;
       padding-bottom: 10px; }
-      #webkite-results .webkite-block ul li b, #webkite-results .webkite-block ul li span.facet-values {
+      #webkite-results.contact-list-landscape .webkite-block ul li b, #webkite-results.contact-list-landscape .webkite-block ul li span.facet-values {
         display: inline-block;
         text-align: left;
         vertical-align: text-top; }
-      #webkite-results .webkite-block ul li b {
+      #webkite-results.contact-list-landscape .webkite-block ul li b {
         width: 39%;
         font-weight: 700; }
-      #webkite-results .webkite-block ul li span.facet-values {
+      #webkite-results.contact-list-landscape .webkite-block ul li span.facet-values {
         width: 59%;
         font-weight: 400; }
-      #webkite-results .webkite-block ul li .facet-values.address a > span {
+      #webkite-results.contact-list-landscape .webkite-block ul li .facet-values.address a > span {
         display: inline-block;
         width: 100%; }
-      #webkite-results .webkite-block ul li .city, #webkite-results .webkite-block ul li .state {
+      #webkite-results.contact-list-landscape .webkite-block ul li .city, #webkite-results.contact-list-landscape .webkite-block ul li .state {
         display: inline; }
-      #webkite-results .webkite-block ul li .city + .state:before {
+      #webkite-results.contact-list-landscape .webkite-block ul li .city + .state:before {
         content: ", "; }
-    #webkite-results .webkite-block ul a.webkite-website {
+    #webkite-results.contact-list-landscape .webkite-block ul a.webkite-website {
       display: inline-block;
       max-width: 100%;
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap; }
-  #webkite-results .webkite-block .image-wrapper {
+  #webkite-results.contact-list-landscape .webkite-block .image-wrapper {
     width: 100%; }
-  #webkite-results .webkite-block img {
+  #webkite-results.contact-list-landscape .webkite-block img {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
@@ -635,16 +642,16 @@
     -ms-border-radius: 0.188em;
     -o-border-radius: 0.188em;
     border-radius: 0.188em; }
-#webkite-results .webkite-block.sixty {
+#webkite-results.contact-list-landscape .webkite-block.sixty {
   width: 59%; }
-#webkite-results .webkite-block.forty {
+#webkite-results.contact-list-landscape .webkite-block.forty {
   width: 39%; }
 
 /************************************ LANDSCAPE RESULTS */
-#webkite-results .webkite-result {
+#webkite-results.contact-list-landscape .webkite-result {
   text-align: justify;
   position: relative; }
-  #webkite-results .webkite-result::after {
+  #webkite-results.contact-list-landscape .webkite-result::after {
     content: '';
     display: inline-block;
     width: 100%;
@@ -653,7 +660,7 @@
     padding: 0;
     white-space: pre-line;
     margin-bottom: 20px; }
-#webkite-results a.more-button, #webkite-results a.less-button {
+#webkite-results.contact-list-landscape a.more-button, #webkite-results.contact-list-landscape a.less-button {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -669,15 +676,15 @@
   padding: 5px 10px;
   margin-top: 20px;
   text-align: center; }
-#webkite-results a.more-button {
+#webkite-results.contact-list-landscape a.more-button {
   background: #1b9cd2; }
-  #webkite-results a.more-button:hover {
+  #webkite-results.contact-list-landscape a.more-button:hover {
     background: #0073a7; }
-#webkite-results a.less-button {
+#webkite-results.contact-list-landscape a.less-button {
   background: rgba(255, 255, 255, 0.7); }
-  #webkite-results a.less-button:hover {
+  #webkite-results.contact-list-landscape a.less-button:hover {
     background: rgba(255, 255, 255, 0.7); }
-#webkite-results .webkite-result-footer {
+#webkite-results.contact-list-landscape .webkite-result-footer {
   clear: both;
   display: block;
   padding-top: 20px;
@@ -685,11 +692,11 @@
   text-align: right; }
 
 /************************************** INLINE FILTERS */
-#webkite-results .webkite-block li b {
+#webkite-results.contact-list-landscape .webkite-block li b {
   position: relative; }
-  #webkite-results .webkite-block li b.inline-filter-button + .facet-values {
+  #webkite-results.contact-list-landscape .webkite-block li b.inline-filter-button + .facet-values {
     padding-top: 5px; }
-  #webkite-results .webkite-block li b > .webkite-toggle {
+  #webkite-results.contact-list-landscape .webkite-block li b > .webkite-toggle {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -711,7 +718,7 @@
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis; }
-    #webkite-results .webkite-block li b > .webkite-toggle i {
+    #webkite-results.contact-list-landscape .webkite-block li b > .webkite-toggle i {
       background: url("angle-dark.png") center center no-repeat;
       position: absolute;
       height: 10px;
@@ -720,10 +727,10 @@
       width: 10px;
       top: 50%;
       right: 5px; }
-    #webkite-results .webkite-block li b > .webkite-toggle:hover {
+    #webkite-results.contact-list-landscape .webkite-block li b > .webkite-toggle:hover {
       border: 1px solid rgba(255, 255, 255, 0.1);
       background: rgba(255, 255, 255, 0.05); }
-#webkite-results .webkite-block .inline-filter-menu {
+#webkite-results.contact-list-landscape .webkite-block .inline-filter-menu {
   -webkit-border-radius: 0.375em;
   -moz-border-radius: 0.375em;
   -ms-border-radius: 0.375em;
@@ -743,9 +750,9 @@
   max-height: 12.5em;
   overflow-y: auto;
   z-index: 2; }
-  #webkite-results .webkite-block .inline-filter-menu li {
+  #webkite-results.contact-list-landscape .webkite-block .inline-filter-menu li {
     padding-bottom: 0; }
-    #webkite-results .webkite-block .inline-filter-menu li a {
+    #webkite-results.contact-list-landscape .webkite-block .inline-filter-menu li a {
       color: #1b9cd2;
       display: block;
       font-size: 0.875em;
@@ -753,31 +760,31 @@
       max-width: 100%;
       padding: 2.5px 20px 2.5px 10px;
       white-space: pre; }
-      #webkite-results .webkite-block .inline-filter-menu li a:hover {
+      #webkite-results.contact-list-landscape .webkite-block .inline-filter-menu li a:hover {
         background: #1b9cd2;
         color: white; }
 
 /******************************************* NO RESULTS */
-#webkite-results .webkite-no-results {
+#webkite-results.contact-list-landscape .webkite-no-results {
   padding: 20px 0;
   margin-bottom: 20px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.05); }
-  #webkite-results .webkite-no-results h2 {
+  #webkite-results.contact-list-landscape .webkite-no-results h2 {
     margin-bottom: 20px; }
 
 /************************************** ELEMENT QUERIES */
-#webkite-results.xs .webkite-block {
+#webkite-results.contact-list-landscape.xs .webkite-block {
   width: 100%;
   padding-right: 0; }
-#webkite-results.xs .webkite-block ul li b, #webkite-results.xs .webkite-block ul li a, #webkite-results.xs .webkite-block ul li span {
+#webkite-results.contact-list-landscape.xs .webkite-block ul li b, #webkite-results.contact-list-landscape.xs .webkite-block ul li a, #webkite-results.contact-list-landscape.xs .webkite-block ul li span {
   width: 100%; }
-#webkite-results.xs .webkite-block ul li .webkite-toggle {
+#webkite-results.contact-list-landscape.xs .webkite-block ul li .webkite-toggle {
   width: auto; }
-#webkite-results.xs .webkite-block .inline-filter-menu li a {
+#webkite-results.contact-list-landscape.xs .webkite-block .inline-filter-menu li a {
   max-width: 100%;
   width: auto; }
 
-#webkite-results.sm .webkite-block ul li b, #webkite-results.sm .webkite-block ul li a, #webkite-results.sm .webkite-block ul li span {
+#webkite-results.contact-list-landscape.sm .webkite-block ul li b, #webkite-results.contact-list-landscape.sm .webkite-block ul li a, #webkite-results.contact-list-landscape.sm .webkite-block ul li span {
   width: 100%; }
-#webkite-results.sm .webkite-block ul li .webkite-toggle {
+#webkite-results.contact-list-landscape.sm .webkite-block ul li .webkite-toggle {
   width: auto; }

@@ -1,15 +1,16 @@
 $colorVariant:dark;
+$themeName:contact-list-table;
 
 //CALL UNIVERSALS
 @import '../globals/universals';
 
 /* RESET */
-#webkite-results{
+#webkite-results.#{$themeName}{
   @include resetThings;
   }
 
 /****************************************** BEGIN STYLES */
-#webkite-results{
+#webkite-results.#{$themeName}{
   background: $backgroundColor;
   border: 1px solid $lighterOpacity;
   @include roundedUp(.625em);
@@ -27,7 +28,7 @@ $colorVariant:dark;
   }
   
 /* TYPOGRAPHY */
-#webkite-results{
+#webkite-results.#{$themeName}{
   h2{
     @include hyphenGreat;
     color: $medOpacity;
@@ -44,7 +45,7 @@ $colorVariant:dark;
 @include universalStyles;
   
 /********************************************** BLOCKS */
-#webkite-results{
+#webkite-results.#{$themeName}{
 
   table{
     border: none;
@@ -119,7 +120,7 @@ $colorVariant:dark;
  
  } 
 /************************************ TABLE RESULTS */
-#webkite-results{
+#webkite-results.#{$themeName}{
   
   tbody:nth-child(odd){
     background: $lighterthanlightestOpacity;
@@ -200,7 +201,7 @@ $colorVariant:dark;
   }
   
 /************************************ TABLE ITEM DETAILS */ 
-#webkite-results{
+#webkite-results.#{$themeName}{
   
   .webkite-item-details{
     background: -moz-linear-gradient(top,  rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 5%);
@@ -234,7 +235,7 @@ $colorVariant:dark;
   }
 
 /************************************** INLINE FILTERS */
-#webkite-results{
+#webkite-results.#{$themeName}{
 
   .webkite-item-details li b{
     position: relative;
@@ -304,7 +305,7 @@ $colorVariant:dark;
 }
 
 /******************************************* NO RESULTS */
-#webkite-results{
+#webkite-results.#{$themeName}{
   
   .webkite-no-results{
     padding: $mainGutter 0;
@@ -319,7 +320,7 @@ $colorVariant:dark;
 
 /************************************** ELEMENT QUERIES */
 
-#webkite-results.xs{
+#webkite-results.#{$themeName}.xs{
   .webkite-item-details ul{max-width:100%;width: 100%; padding-left: 0;}
   .webkite-item-details li{
     b, .facet-values{width: 100%;}
@@ -343,7 +344,7 @@ $colorVariant:dark;
   td{vertical-align: top; &.open-toggle{vertical-align: middle;}}
   }
   
-#webkite-results.sm{
+#webkite-results.#{$themeName}.sm{
   .webkite-item-details li{
     b, .facet-values{width: 100%;}
     .webkite-toggle{width: auto;}
@@ -364,24 +365,24 @@ $colorVariant:dark;
   }
   
 /***************************************  DISPLAY RULES */
-#webkite-results.xs{
+#webkite-results.#{$themeName}.xs{
   .until-xs, .until-sm, .sm-only, .md-only, .lg-only{display: none;}
   .xs-only, .webkite-results-header .xs-only{display: inline-block; width: 100%;}
   td.xs-only, th.xs-only{display: table-cell;}
   }
-#webkite-results.sm{
+#webkite-results.#{$themeName}.sm{
   .until-sm, .xs-only, .md-only, .lg-only{display: none;}
   .sm-only{display: inline-block;}
   td.sm-only, th.sm-only{display: table-cell;}
   }
-#webkite-results, #webkite-results.md, #webkite-results.xl{
+#webkite-results.#{$themeName}, #webkite-results.#{$themeName}.md, #webkite-results.#{$themeName}.xl{
   .until-md, .xs-only, .sm-only, .lg-only{display: none;}
   .webkite-results-header .xs-only{display: none;}
   .md-only{display: inline-block;}
   td.md-only, th.md-only{display: table-cell;}
   th span.md-only{line-height: 1;}
   }
-#webkite-results.lg{
+#webkite-results.#{$themeName}.lg{
   .until-lg, .xs-only, .sm-only, .md-only{display: none;}
   .lg-only{display: inline-block;}
   td.lg-only, th.lg-only{display: table-cell;}
