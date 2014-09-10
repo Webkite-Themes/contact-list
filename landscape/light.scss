@@ -5,12 +5,12 @@ $themeName:contact-list-landscape;
 @import '../globals/universals';
 
 /* RESET */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
   @include resetThings;
   }
 
 /****************************************** BEGIN STYLES */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
   background: $backgroundColor;
   border: 1px solid $lighterOpacity;
   @include roundedUp(.625em);
@@ -29,7 +29,7 @@ $themeName:contact-list-landscape;
   }
   
 /* TYPOGRAPHY */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
   h1, h2{
     margin: 0;
     }
@@ -48,7 +48,7 @@ $themeName:contact-list-landscape;
 @include universalStyles;
   
 /********************************************** BLOCKS */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
 
   .webkite-block{
     display: inline-block;
@@ -91,7 +91,7 @@ $themeName:contact-list-landscape;
   }
   
 /************************************ LANDSCAPE RESULTS */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
   
   .webkite-result{
     text-align: justify;
@@ -128,7 +128,7 @@ $themeName:contact-list-landscape;
   }
   
 /************************************** INLINE FILTERS */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
 
   .webkite-block li b{
     position: relative;
@@ -197,7 +197,7 @@ $themeName:contact-list-landscape;
 }
 
 /******************************************* NO RESULTS */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
   
   .webkite-no-results{
     padding: $mainGutter 0;
@@ -211,7 +211,7 @@ $themeName:contact-list-landscape;
   }
   
 /************************************** ELEMENT QUERIES */
-#webkite-results.#{$themeName}.xs{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}.xs{
   .webkite-block{
     width: 100%;
     padding-right: 0;
@@ -226,7 +226,7 @@ $themeName:contact-list-landscape;
     }
   }
   
-#webkite-results.#{$themeName}.sm{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}.sm{
   .webkite-block ul li{
     b, a, span{width: 100%;}
     .webkite-toggle{width: auto;}

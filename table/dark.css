@@ -1,8 +1,8 @@
 @import url("//fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700");
 /* RESET */
-#webkite-results.contact-list-table {
+#webkite-results.contact-list-table.webkite-dark {
   /* HTML5 display-role reset for older browsers */ }
-  #webkite-results.contact-list-table div, #webkite-results.contact-list-table span, #webkite-results.contact-list-table applet, #webkite-results.contact-list-table object, #webkite-results.contact-list-table iframe, #webkite-results.contact-list-table h1, #webkite-results.contact-list-table h2, #webkite-results.contact-list-table h3, #webkite-results.contact-list-table h4, #webkite-results.contact-list-table h5, #webkite-results.contact-list-table h6, #webkite-results.contact-list-table p, #webkite-results.contact-list-table blockquote, #webkite-results.contact-list-table pre, #webkite-results.contact-list-table a, #webkite-results.contact-list-table abbr, #webkite-results.contact-list-table acronym, #webkite-results.contact-list-table address, #webkite-results.contact-list-table big, #webkite-results.contact-list-table cite, #webkite-results.contact-list-table code, #webkite-results.contact-list-table del, #webkite-results.contact-list-table dfn, #webkite-results.contact-list-table em, #webkite-results.contact-list-table img, #webkite-results.contact-list-table ins, #webkite-results.contact-list-table kbd, #webkite-results.contact-list-table q, #webkite-results.contact-list-table s, #webkite-results.contact-list-table samp, #webkite-results.contact-list-table small, #webkite-results.contact-list-table strike, #webkite-results.contact-list-table strong, #webkite-results.contact-list-table sub, #webkite-results.contact-list-table sup, #webkite-results.contact-list-table tt, #webkite-results.contact-list-table var, #webkite-results.contact-list-table b, #webkite-results.contact-list-table u, #webkite-results.contact-list-table i, #webkite-results.contact-list-table center, #webkite-results.contact-list-table dl, #webkite-results.contact-list-table dt, #webkite-results.contact-list-table dd, #webkite-results.contact-list-table ol, #webkite-results.contact-list-table ul, #webkite-results.contact-list-table li, #webkite-results.contact-list-table fieldset, #webkite-results.contact-list-table form, #webkite-results.contact-list-table label, #webkite-results.contact-list-table legend, #webkite-results.contact-list-table table, #webkite-results.contact-list-table caption, #webkite-results.contact-list-table tbody, #webkite-results.contact-list-table tfoot, #webkite-results.contact-list-table thead, #webkite-results.contact-list-table tr, #webkite-results.contact-list-table th, #webkite-results.contact-list-table td, #webkite-results.contact-list-table article, #webkite-results.contact-list-table aside, #webkite-results.contact-list-table canvas, #webkite-results.contact-list-table details, #webkite-results.contact-list-table embed, #webkite-results.contact-list-table figure, #webkite-results.contact-list-table figcaption, #webkite-results.contact-list-table footer, #webkite-results.contact-list-table header, #webkite-results.contact-list-table hgroup, #webkite-results.contact-list-table menu, #webkite-results.contact-list-table nav, #webkite-results.contact-list-table output, #webkite-results.contact-list-table ruby, #webkite-results.contact-list-table section, #webkite-results.contact-list-table summary, #webkite-results.contact-list-table time, #webkite-results.contact-list-table mark, #webkite-results.contact-list-table audio, #webkite-results.contact-list-table video {
+  #webkite-results.contact-list-table.webkite-dark div, #webkite-results.contact-list-table.webkite-dark span, #webkite-results.contact-list-table.webkite-dark applet, #webkite-results.contact-list-table.webkite-dark object, #webkite-results.contact-list-table.webkite-dark iframe, #webkite-results.contact-list-table.webkite-dark h1, #webkite-results.contact-list-table.webkite-dark h2, #webkite-results.contact-list-table.webkite-dark h3, #webkite-results.contact-list-table.webkite-dark h4, #webkite-results.contact-list-table.webkite-dark h5, #webkite-results.contact-list-table.webkite-dark h6, #webkite-results.contact-list-table.webkite-dark p, #webkite-results.contact-list-table.webkite-dark blockquote, #webkite-results.contact-list-table.webkite-dark pre, #webkite-results.contact-list-table.webkite-dark a, #webkite-results.contact-list-table.webkite-dark abbr, #webkite-results.contact-list-table.webkite-dark acronym, #webkite-results.contact-list-table.webkite-dark address, #webkite-results.contact-list-table.webkite-dark big, #webkite-results.contact-list-table.webkite-dark cite, #webkite-results.contact-list-table.webkite-dark code, #webkite-results.contact-list-table.webkite-dark del, #webkite-results.contact-list-table.webkite-dark dfn, #webkite-results.contact-list-table.webkite-dark em, #webkite-results.contact-list-table.webkite-dark img, #webkite-results.contact-list-table.webkite-dark ins, #webkite-results.contact-list-table.webkite-dark kbd, #webkite-results.contact-list-table.webkite-dark q, #webkite-results.contact-list-table.webkite-dark s, #webkite-results.contact-list-table.webkite-dark samp, #webkite-results.contact-list-table.webkite-dark small, #webkite-results.contact-list-table.webkite-dark strike, #webkite-results.contact-list-table.webkite-dark strong, #webkite-results.contact-list-table.webkite-dark sub, #webkite-results.contact-list-table.webkite-dark sup, #webkite-results.contact-list-table.webkite-dark tt, #webkite-results.contact-list-table.webkite-dark var, #webkite-results.contact-list-table.webkite-dark b, #webkite-results.contact-list-table.webkite-dark u, #webkite-results.contact-list-table.webkite-dark i, #webkite-results.contact-list-table.webkite-dark center, #webkite-results.contact-list-table.webkite-dark dl, #webkite-results.contact-list-table.webkite-dark dt, #webkite-results.contact-list-table.webkite-dark dd, #webkite-results.contact-list-table.webkite-dark ol, #webkite-results.contact-list-table.webkite-dark ul, #webkite-results.contact-list-table.webkite-dark li, #webkite-results.contact-list-table.webkite-dark fieldset, #webkite-results.contact-list-table.webkite-dark form, #webkite-results.contact-list-table.webkite-dark label, #webkite-results.contact-list-table.webkite-dark legend, #webkite-results.contact-list-table.webkite-dark table, #webkite-results.contact-list-table.webkite-dark caption, #webkite-results.contact-list-table.webkite-dark tbody, #webkite-results.contact-list-table.webkite-dark tfoot, #webkite-results.contact-list-table.webkite-dark thead, #webkite-results.contact-list-table.webkite-dark tr, #webkite-results.contact-list-table.webkite-dark th, #webkite-results.contact-list-table.webkite-dark td, #webkite-results.contact-list-table.webkite-dark article, #webkite-results.contact-list-table.webkite-dark aside, #webkite-results.contact-list-table.webkite-dark canvas, #webkite-results.contact-list-table.webkite-dark details, #webkite-results.contact-list-table.webkite-dark embed, #webkite-results.contact-list-table.webkite-dark figure, #webkite-results.contact-list-table.webkite-dark figcaption, #webkite-results.contact-list-table.webkite-dark footer, #webkite-results.contact-list-table.webkite-dark header, #webkite-results.contact-list-table.webkite-dark hgroup, #webkite-results.contact-list-table.webkite-dark menu, #webkite-results.contact-list-table.webkite-dark nav, #webkite-results.contact-list-table.webkite-dark output, #webkite-results.contact-list-table.webkite-dark ruby, #webkite-results.contact-list-table.webkite-dark section, #webkite-results.contact-list-table.webkite-dark summary, #webkite-results.contact-list-table.webkite-dark time, #webkite-results.contact-list-table.webkite-dark mark, #webkite-results.contact-list-table.webkite-dark audio, #webkite-results.contact-list-table.webkite-dark video {
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -24,35 +24,35 @@
     -ms-transition: none;
     -o-transition: all 0 none;
     transition: none; }
-  #webkite-results.contact-list-table button, #webkite-results.contact-list-table select, #webkite-results.contact-list-table input {
+  #webkite-results.contact-list-table.webkite-dark button, #webkite-results.contact-list-table.webkite-dark select, #webkite-results.contact-list-table.webkite-dark input {
     text-transform: none; }
-    #webkite-results.contact-list-table button:active, #webkite-results.contact-list-table select:active, #webkite-results.contact-list-table input:active {
+    #webkite-results.contact-list-table.webkite-dark button:active, #webkite-results.contact-list-table.webkite-dark select:active, #webkite-results.contact-list-table.webkite-dark input:active {
       -moz-box-shadow: none;
       -webkit-box-shadow: none;
       box-shadow: none; }
-  #webkite-results.contact-list-table button::-moz-focus-inner {
+  #webkite-results.contact-list-table.webkite-dark button::-moz-focus-inner {
     padding: 0;
     border: 0; }
-  #webkite-results.contact-list-table article, #webkite-results.contact-list-table aside, #webkite-results.contact-list-table details, #webkite-results.contact-list-table figcaption, #webkite-results.contact-list-table figure, #webkite-results.contact-list-table footer, #webkite-results.contact-list-table header, #webkite-results.contact-list-table hgroup, #webkite-results.contact-list-table menu, #webkite-results.contact-list-table nav, #webkite-results.contact-list-table section {
+  #webkite-results.contact-list-table.webkite-dark article, #webkite-results.contact-list-table.webkite-dark aside, #webkite-results.contact-list-table.webkite-dark details, #webkite-results.contact-list-table.webkite-dark figcaption, #webkite-results.contact-list-table.webkite-dark figure, #webkite-results.contact-list-table.webkite-dark footer, #webkite-results.contact-list-table.webkite-dark header, #webkite-results.contact-list-table.webkite-dark hgroup, #webkite-results.contact-list-table.webkite-dark menu, #webkite-results.contact-list-table.webkite-dark nav, #webkite-results.contact-list-table.webkite-dark section {
     display: block; }
-  #webkite-results.contact-list-table body {
+  #webkite-results.contact-list-table.webkite-dark body {
     line-height: 1; }
-  #webkite-results.contact-list-table ol, #webkite-results.contact-list-table ul, #webkite-results.contact-list-table ul li {
+  #webkite-results.contact-list-table.webkite-dark ol, #webkite-results.contact-list-table.webkite-dark ul, #webkite-results.contact-list-table.webkite-dark ul li {
     list-style: none; }
-  #webkite-results.contact-list-table blockquote, #webkite-results.contact-list-table q {
+  #webkite-results.contact-list-table.webkite-dark blockquote, #webkite-results.contact-list-table.webkite-dark q {
     quotes: none; }
-  #webkite-results.contact-list-table blockquote:before, #webkite-results.contact-list-table blockquote:after {
+  #webkite-results.contact-list-table.webkite-dark blockquote:before, #webkite-results.contact-list-table.webkite-dark blockquote:after {
     content: '';
     content: none; }
-  #webkite-results.contact-list-table q:before, #webkite-results.contact-list-table q:after {
+  #webkite-results.contact-list-table.webkite-dark q:before, #webkite-results.contact-list-table.webkite-dark q:after {
     content: '';
     content: none; }
-  #webkite-results.contact-list-table table {
+  #webkite-results.contact-list-table.webkite-dark table {
     border-collapse: collapse;
     border-spacing: 0; }
 
 /****************************************** BEGIN STYLES */
-#webkite-results.contact-list-table {
+#webkite-results.contact-list-table.webkite-dark {
   background: rgba(0, 0, 0, 0.9);
   border: 1px solid rgba(255, 255, 255, 0.1);
   -webkit-border-radius: 0.625em;
@@ -69,14 +69,14 @@
   max-width: 43.75em;
   margin: 0 auto;
   padding: 20px; }
-  #webkite-results.contact-list-table a {
+  #webkite-results.contact-list-table.webkite-dark a {
     color: #1b9cd2;
     text-decoration: none; }
-    #webkite-results.contact-list-table a:hover {
+    #webkite-results.contact-list-table.webkite-dark a:hover {
       color: #0073a7; }
 
 /* TYPOGRAPHY */
-#webkite-results.contact-list-table h2 {
+#webkite-results.contact-list-table.webkite-dark h2 {
   word-wrap: break-word;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
@@ -86,39 +86,39 @@
   display: inline-block;
   font: 700 1.125em/1 "Open Sans";
   margin: 0; }
-#webkite-results.contact-list-table p, #webkite-results.contact-list-table li {
+#webkite-results.contact-list-table.webkite-dark p, #webkite-results.contact-list-table.webkite-dark li {
   color: rgba(255, 255, 255, 0.7); }
 
 /******************************************** NAVIGATIONALS */
-#webkite-results.contact-list-table .webkite-results-header, #webkite-results.contact-list-table .webkite-results-footer {
+#webkite-results.contact-list-table.webkite-dark .webkite-results-header, #webkite-results.contact-list-table.webkite-dark .webkite-results-footer {
   text-align: justify;
   position: relative; }
-  #webkite-results.contact-list-table .webkite-results-header .webkite-sort-area, #webkite-results.contact-list-table .webkite-results-header .webkite-filter-area, #webkite-results.contact-list-table .webkite-results-footer .webkite-sort-area, #webkite-results.contact-list-table .webkite-results-footer .webkite-filter-area {
+  #webkite-results.contact-list-table.webkite-dark .webkite-results-header .webkite-sort-area, #webkite-results.contact-list-table.webkite-dark .webkite-results-header .webkite-filter-area, #webkite-results.contact-list-table.webkite-dark .webkite-results-footer .webkite-sort-area, #webkite-results.contact-list-table.webkite-dark .webkite-results-footer .webkite-filter-area {
     display: inline-block;
     vertical-align: top; }
-  #webkite-results.contact-list-table .webkite-results-header .webkite-branding-area, #webkite-results.contact-list-table .webkite-results-footer .webkite-branding-area {
+  #webkite-results.contact-list-table.webkite-dark .webkite-results-header .webkite-branding-area, #webkite-results.contact-list-table.webkite-dark .webkite-results-footer .webkite-branding-area {
     width: 102px;
     margin-right: -102px;
     display: inline-block;
     position: relative; }
-  #webkite-results.contact-list-table .webkite-results-header .webkite-branding-area a, #webkite-results.contact-list-table .webkite-results-footer .webkite-branding-area a {
+  #webkite-results.contact-list-table.webkite-dark .webkite-results-header .webkite-branding-area a, #webkite-results.contact-list-table.webkite-dark .webkite-results-footer .webkite-branding-area a {
     background: url("branding-dark.svg") center top no-repeat;
     background-size: 100%;
     display: inline-block;
     height: 34px;
     width: 102px; }
-#webkite-results.contact-list-table .webkite-results-header {
+#webkite-results.contact-list-table.webkite-dark .webkite-results-header {
   line-height: 1;
   margin-bottom: 20px; }
-  #webkite-results.contact-list-table .webkite-results-header::after {
+  #webkite-results.contact-list-table.webkite-dark .webkite-results-header::after {
     content: '';
     clear: both;
     display: table; }
-#webkite-results.contact-list-table .webkite-results-footer {
+#webkite-results.contact-list-table.webkite-dark .webkite-results-footer {
   font-size: 14px; }
 
 /************************************** DATASET NAME & EMBED */
-#webkite-results.contact-list-table .webkite-dataset-name {
+#webkite-results.contact-list-table.webkite-dark .webkite-dataset-name {
   color: rgba(255, 255, 255, 0.8);
   font-size: 22px;
   font-weight: bold;
@@ -126,9 +126,9 @@
   line-height: 1.1em;
   margin: -0.15em 0 15px;
   padding: 0; }
-  #webkite-results.contact-list-table .webkite-dataset-name + .webkite-embed-wrapper {
+  #webkite-results.contact-list-table.webkite-dark .webkite-dataset-name + .webkite-embed-wrapper {
     margin: -13px 0 5px; }
-#webkite-results.contact-list-table .webkite-embed-wrapper {
+#webkite-results.contact-list-table.webkite-dark .webkite-embed-wrapper {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -140,7 +140,7 @@
   height: 39px;
   position: relative;
   overflow: hidden; }
-#webkite-results.contact-list-table #webkite-embedder {
+#webkite-results.contact-list-table.webkite-dark #webkite-embedder {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -153,9 +153,9 @@
   right: 0;
   left: 0;
   z-index: 1; }
-#webkite-results.contact-list-table .webkite-embed-input {
+#webkite-results.contact-list-table.webkite-dark .webkite-embed-input {
   padding: 0 20px 0 70px; }
-  #webkite-results.contact-list-table .webkite-embed-input input {
+  #webkite-results.contact-list-table.webkite-dark .webkite-embed-input input {
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
@@ -173,7 +173,7 @@
     position: relative;
     width: 100%;
     top: -1px; }
-#webkite-results.contact-list-table .webkite-embed-select {
+#webkite-results.contact-list-table.webkite-dark .webkite-embed-select {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -187,7 +187,7 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis; }
-#webkite-results.contact-list-table .webkite-embed-hide {
+#webkite-results.contact-list-table.webkite-dark .webkite-embed-hide {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -201,12 +201,12 @@
   background: url('select-close-dark.png') no-repeat right center; }
 
 /************************************** SORTS AND FILTERS */
-#webkite-results.contact-list-table {
+#webkite-results.contact-list-table.webkite-dark {
   /* sorts */
   /* filters */
   /* tokens */
   /* clear everything */ }
-  #webkite-results.contact-list-table .webkite-sort-area > .webkite-toggle, #webkite-results.contact-list-table .webkite-primary-filter-menu > .webkite-toggle {
+  #webkite-results.contact-list-table.webkite-dark .webkite-sort-area > .webkite-toggle, #webkite-results.contact-list-table.webkite-dark .webkite-primary-filter-menu > .webkite-toggle {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -229,7 +229,7 @@
     height: 28px;
     width: 80px;
     white-space: nowrap; }
-    #webkite-results.contact-list-table .webkite-sort-area > .webkite-toggle > span, #webkite-results.contact-list-table .webkite-primary-filter-menu > .webkite-toggle > span {
+    #webkite-results.contact-list-table.webkite-dark .webkite-sort-area > .webkite-toggle > span, #webkite-results.contact-list-table.webkite-dark .webkite-primary-filter-menu > .webkite-toggle > span {
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box;
@@ -239,10 +239,10 @@
       text-overflow: ellipsis;
       padding-left: 8px;
       width: 100%; }
-  #webkite-results.contact-list-table .webkite-sort-area {
+  #webkite-results.contact-list-table.webkite-dark .webkite-sort-area {
     position: relative;
     z-index: 3; }
-  #webkite-results.contact-list-table .webkite-sort-area > .webkite-toggle i {
+  #webkite-results.contact-list-table.webkite-dark .webkite-sort-area > .webkite-toggle i {
     background: url("angle-dark.png") center center no-repeat;
     height: 10px;
     pointer-events: none;
@@ -251,30 +251,30 @@
     top: 50%;
     margin-top: -5px;
     right: 8px; }
-  #webkite-results.contact-list-table .webkite-filter-area {
+  #webkite-results.contact-list-table.webkite-dark .webkite-filter-area {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     width: 100%;
     position: relative; }
-  #webkite-results.contact-list-table .webkite-sort-area + .webkite-filter-area {
+  #webkite-results.contact-list-table.webkite-dark .webkite-sort-area + .webkite-filter-area {
     padding-left: 90px;
     margin-left: -80px; }
-  #webkite-results.contact-list-table .webkite-applied-filters {
+  #webkite-results.contact-list-table.webkite-dark .webkite-applied-filters {
     position: relative; }
-  #webkite-results.contact-list-table .webkite-primary-filter-menu {
+  #webkite-results.contact-list-table.webkite-dark .webkite-primary-filter-menu {
     position: absolute;
     left: 0;
     top: 0;
     vertical-align: top;
     z-index: 2; }
-  #webkite-results.contact-list-table .webkite-primary-filter-menu > .webkite-toggle {
+  #webkite-results.contact-list-table.webkite-dark .webkite-primary-filter-menu > .webkite-toggle {
     -webkit-border-radius: 3px 0 0 3px;
     -moz-border-radius: 3px 0 0 3px;
     -ms-border-radius: 3px 0 0 3px;
     -o-border-radius: 3px 0 0 3px;
     border-radius: 3px 0 0 3px; }
-  #webkite-results.contact-list-table .webkite-primary-filter-menu > .webkite-toggle i {
+  #webkite-results.contact-list-table.webkite-dark .webkite-primary-filter-menu > .webkite-toggle i {
     background: url("plus-dark.png") no-repeat;
     height: 12px;
     width: 12px;
@@ -283,7 +283,7 @@
     top: 50%;
     margin-top: -6px;
     right: 6px; }
-  #webkite-results.contact-list-table .current-filters {
+  #webkite-results.contact-list-table.webkite-dark .current-filters {
     -webkit-border-radius: 0 3px 3px 0;
     -moz-border-radius: 0 3px 3px 0;
     -ms-border-radius: 0 3px 3px 0;
@@ -303,21 +303,21 @@
     text-align: left;
     vertical-align: top;
     /* and & or */ }
-    #webkite-results.contact-list-table .current-filters span {
+    #webkite-results.contact-list-table.webkite-dark .current-filters span {
       color: rgba(127, 127, 127, 0.7);
       font-size: 14px;
       line-height: 1.2em;
       padding: 0 0.41667em 0 0;
       vertical-align: top; }
-  #webkite-results.contact-list-table .filter-token-wrapper {
+  #webkite-results.contact-list-table.webkite-dark .filter-token-wrapper {
     display: inline-block;
     max-width: 100%;
     overflow: hidden;
     white-space: nowrap;
     width: 100%; }
-    #webkite-results.contact-list-table .filter-token-wrapper > span:first-child {
+    #webkite-results.contact-list-table.webkite-dark .filter-token-wrapper > span:first-child {
       padding-left: 0.41667em; }
-  #webkite-results.contact-list-table a.webkite-remove-filter {
+  #webkite-results.contact-list-table.webkite-dark a.webkite-remove-filter {
     display: inline-block;
     max-width: 100%;
     overflow: hidden;
@@ -336,36 +336,36 @@
     text-align: left;
     word-wrap: normal;
     margin-right: 0.41667em; }
-    #webkite-results.contact-list-table a.webkite-remove-filter:hover {
+    #webkite-results.contact-list-table.webkite-dark a.webkite-remove-filter:hover {
       text-decoration: line-through; }
-  #webkite-results.contact-list-table [class^="filter-group"] {
+  #webkite-results.contact-list-table.webkite-dark [class^="filter-group"] {
     display: inline-block; }
-  #webkite-results.contact-list-table .filter-group-0 a.webkite-remove-filter {
+  #webkite-results.contact-list-table.webkite-dark .filter-group-0 a.webkite-remove-filter {
     background: #1b9cd2; }
-  #webkite-results.contact-list-table .filter-group-1 a.webkite-remove-filter {
+  #webkite-results.contact-list-table.webkite-dark .filter-group-1 a.webkite-remove-filter {
     background: #39a17c; }
-  #webkite-results.contact-list-table .filter-group-2 a.webkite-remove-filter {
+  #webkite-results.contact-list-table.webkite-dark .filter-group-2 a.webkite-remove-filter {
     background: #a8936f; }
-  #webkite-results.contact-list-table .filter-group-3 a.webkite-remove-filter {
+  #webkite-results.contact-list-table.webkite-dark .filter-group-3 a.webkite-remove-filter {
     background: #e6af52; }
-  #webkite-results.contact-list-table .filter-group-4 a.webkite-remove-filter {
+  #webkite-results.contact-list-table.webkite-dark .filter-group-4 a.webkite-remove-filter {
     background: #6f7ca8; }
-  #webkite-results.contact-list-table a.webkite-clear-filters {
+  #webkite-results.contact-list-table.webkite-dark a.webkite-clear-filters {
     background: url("clear-all-icon.png") center top no-repeat;
     height: 18px;
     width: 18px;
     position: absolute;
     right: 4px;
     top: 4px; }
-    #webkite-results.contact-list-table a.webkite-clear-filters:active {
+    #webkite-results.contact-list-table.webkite-dark a.webkite-clear-filters:active {
       background-position: 0 -18px; }
 
 /**************************************** SORT/FILTER MENU */
-#webkite-results.contact-list-table {
+#webkite-results.contact-list-table.webkite-dark {
   /* directional arrow */
   /* filter arrow */
   /* filter submenu*/ }
-  #webkite-results.contact-list-table .sort-menu, #webkite-results.contact-list-table .filter-menu {
+  #webkite-results.contact-list-table.webkite-dark .sort-menu, #webkite-results.contact-list-table.webkite-dark .filter-menu {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     -ms-border-radius: 3px;
@@ -385,22 +385,22 @@
     z-index: 4;
     top: 10px;
     left: 10px; }
-  #webkite-results.contact-list-table .sort-menu li, #webkite-results.contact-list-table .filter-menu li {
+  #webkite-results.contact-list-table.webkite-dark .sort-menu li, #webkite-results.contact-list-table.webkite-dark .filter-menu li {
     list-style-type: none;
     position: relative;
     padding-bottom: 0; }
-  #webkite-results.contact-list-table .sort-menu li a, #webkite-results.contact-list-table .filter-menu li .webkite-link, #webkite-results.contact-list-table .filter-menu li a {
+  #webkite-results.contact-list-table.webkite-dark .sort-menu li a, #webkite-results.contact-list-table.webkite-dark .filter-menu li .webkite-link, #webkite-results.contact-list-table.webkite-dark .filter-menu li a {
     color: #1b9cd2;
     display: block;
     padding: 2px 10px;
     white-space: pre; }
-    #webkite-results.contact-list-table .sort-menu li a:hover, #webkite-results.contact-list-table .filter-menu li .webkite-link:hover, #webkite-results.contact-list-table .filter-menu li a:hover {
+    #webkite-results.contact-list-table.webkite-dark .sort-menu li a:hover, #webkite-results.contact-list-table.webkite-dark .filter-menu li .webkite-link:hover, #webkite-results.contact-list-table.webkite-dark .filter-menu li a:hover {
       background: #1b9cd2;
       color: white; }
-  #webkite-results.contact-list-table .sort-menu li.active a {
+  #webkite-results.contact-list-table.webkite-dark .sort-menu li.active a {
     position: relative;
     padding-right: 30px; }
-    #webkite-results.contact-list-table .sort-menu li.active a.asc::after, #webkite-results.contact-list-table .sort-menu li.active a.desc::after {
+    #webkite-results.contact-list-table.webkite-dark .sort-menu li.active a.asc::after, #webkite-results.contact-list-table.webkite-dark .sort-menu li.active a.desc::after {
       background: url("sort-direction.png") no-repeat;
       content: "";
       display: block;
@@ -409,22 +409,22 @@
       position: absolute;
       top: 8px;
       right: 10px; }
-    #webkite-results.contact-list-table .sort-menu li.active a.asc::after {
+    #webkite-results.contact-list-table.webkite-dark .sort-menu li.active a.asc::after {
       background-position: 0 0; }
-    #webkite-results.contact-list-table .sort-menu li.active a.desc::after {
+    #webkite-results.contact-list-table.webkite-dark .sort-menu li.active a.desc::after {
       background-position: 0 -5px; }
-  #webkite-results.contact-list-table .filter-menu > li > .webkite-link {
+  #webkite-results.contact-list-table.webkite-dark .filter-menu > li > .webkite-link {
     color: #1b9cd2;
     cursor: pointer;
     padding-right: 20px;
     position: relative; }
-    #webkite-results.contact-list-table .filter-menu > li > .webkite-link::after {
+    #webkite-results.contact-list-table.webkite-dark .filter-menu > li > .webkite-link::after {
       color: rgba(127, 127, 127, 0.7);
       content: "\203A";
       opacity: 0.5;
       position: absolute;
       right: 6.66667px; }
-  #webkite-results.contact-list-table .filter-menu-child {
+  #webkite-results.contact-list-table.webkite-dark .filter-menu-child {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     -ms-border-radius: 3px;
@@ -442,11 +442,11 @@
     left: 100%;
     top: -10px;
     margin: 0; }
-  #webkite-results.contact-list-table .filter-menu li:hover .filter-menu-child {
+  #webkite-results.contact-list-table.webkite-dark .filter-menu li:hover .filter-menu-child {
     display: block; }
 
 /******************************* FILTER OVERVIEW AND SHADE */
-#webkite-results.contact-list-table .filter-token-wrapper.webkite-truncated:before {
+#webkite-results.contact-list-table.webkite-dark .filter-token-wrapper.webkite-truncated:before {
   content: "";
   background: url("gradient-fallback-dark.png") repeat-y;
   background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.4) 5%, rgba(0, 0, 0, 0.2) 25%, rgba(0, 0, 0, 0.05) 75%, rgba(0, 0, 0, 0) 100%);
@@ -462,7 +462,7 @@
   left: -1px;
   top: -1px;
   bottom: -1px; }
-#webkite-results.contact-list-table .all-current-filters {
+#webkite-results.contact-list-table.webkite-dark .all-current-filters {
   -webkit-border-radius: 0 3px 3px 3px;
   -moz-border-radius: 0 3px 3px 3px;
   -ms-border-radius: 0 3px 3px 3px;
@@ -480,18 +480,18 @@
   right: -1px;
   left: -1px;
   z-index: 3; }
-  #webkite-results.contact-list-table .all-current-filters .all-filters-wrapper {
+  #webkite-results.contact-list-table.webkite-dark .all-current-filters .all-filters-wrapper {
     white-space: normal; }
-    #webkite-results.contact-list-table .all-current-filters .all-filters-wrapper > span:first-child {
+    #webkite-results.contact-list-table.webkite-dark .all-current-filters .all-filters-wrapper > span:first-child {
       padding-left: 0; }
-    #webkite-results.contact-list-table .all-current-filters .all-filters-wrapper [class^="filter-group"] {
+    #webkite-results.contact-list-table.webkite-dark .all-current-filters .all-filters-wrapper [class^="filter-group"] {
       display: inline; }
 
 /********************************************* PAGINATION */
-#webkite-results.contact-list-table {
+#webkite-results.contact-list-table.webkite-dark {
   /* page input */
   /* remove arrows */ }
-  #webkite-results.contact-list-table .webkite-pagination-area {
+  #webkite-results.contact-list-table.webkite-dark .webkite-pagination-area {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -502,32 +502,32 @@
     display: inline-block;
     vertical-align: top;
     line-height: 34px; }
-    #webkite-results.contact-list-table .webkite-pagination-area:empty {
+    #webkite-results.contact-list-table.webkite-dark .webkite-pagination-area:empty {
       display: none; }
-  #webkite-results.contact-list-table .webkite-results-paginator {
+  #webkite-results.contact-list-table.webkite-dark .webkite-results-paginator {
     font-size: 14px; }
-    #webkite-results.contact-list-table .webkite-results-paginator a, #webkite-results.contact-list-table .webkite-results-paginator p {
+    #webkite-results.contact-list-table.webkite-dark .webkite-results-paginator a, #webkite-results.contact-list-table.webkite-dark .webkite-results-paginator p {
       display: inline; }
-    #webkite-results.contact-list-table .webkite-results-paginator em {
+    #webkite-results.contact-list-table.webkite-dark .webkite-results-paginator em {
       font-style: italic; }
-    #webkite-results.contact-list-table .webkite-results-paginator a {
+    #webkite-results.contact-list-table.webkite-dark .webkite-results-paginator a {
       font-size: 1.2em;
       line-height: 0; }
-  #webkite-results.contact-list-table .first-result-page, #webkite-results.contact-list-table .previous-result-page {
+  #webkite-results.contact-list-table.webkite-dark .first-result-page, #webkite-results.contact-list-table.webkite-dark .previous-result-page {
     padding-right: 10px; }
-    #webkite-results.contact-list-table .first-result-page.disabled, #webkite-results.contact-list-table .previous-result-page.disabled {
+    #webkite-results.contact-list-table.webkite-dark .first-result-page.disabled, #webkite-results.contact-list-table.webkite-dark .previous-result-page.disabled {
       color: rgba(255, 255, 255, 0.7); }
-      #webkite-results.contact-list-table .first-result-page.disabled:hover, #webkite-results.contact-list-table .previous-result-page.disabled:hover {
+      #webkite-results.contact-list-table.webkite-dark .first-result-page.disabled:hover, #webkite-results.contact-list-table.webkite-dark .previous-result-page.disabled:hover {
         color: rgba(255, 255, 255, 0.7);
         cursor: default; }
-  #webkite-results.contact-list-table .next-result-page, #webkite-results.contact-list-table .last-result-page {
+  #webkite-results.contact-list-table.webkite-dark .next-result-page, #webkite-results.contact-list-table.webkite-dark .last-result-page {
     padding-left: 10px; }
-    #webkite-results.contact-list-table .next-result-page.disabled, #webkite-results.contact-list-table .last-result-page.disabled {
+    #webkite-results.contact-list-table.webkite-dark .next-result-page.disabled, #webkite-results.contact-list-table.webkite-dark .last-result-page.disabled {
       color: rgba(255, 255, 255, 0.7); }
-      #webkite-results.contact-list-table .next-result-page.disabled:hover, #webkite-results.contact-list-table .last-result-page.disabled:hover {
+      #webkite-results.contact-list-table.webkite-dark .next-result-page.disabled:hover, #webkite-results.contact-list-table.webkite-dark .last-result-page.disabled:hover {
         color: rgba(255, 255, 255, 0.7);
         cursor: default; }
-  #webkite-results.contact-list-table input.webkite-page-input {
+  #webkite-results.contact-list-table.webkite-dark input.webkite-page-input {
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
@@ -547,10 +547,10 @@
     font-size: 0.9em;
     line-height: 16px;
     text-align: center; }
-  #webkite-results.contact-list-table .webkite-page-input::-webkit-outer-spin-button, #webkite-results.contact-list-table .webkite-page-input::-webkit-inner-spin-button {
+  #webkite-results.contact-list-table.webkite-dark .webkite-page-input::-webkit-outer-spin-button, #webkite-results.contact-list-table.webkite-dark .webkite-page-input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0; }
-  #webkite-results.contact-list-table input[type=number] {
+  #webkite-results.contact-list-table.webkite-dark input[type=number] {
     -moz-appearance: textfield; }
 
 /************************************** ELEMENT QUERIES */
@@ -588,20 +588,20 @@
   padding-left: 0; }
 
 /********************************************** BLOCKS */
-#webkite-results.contact-list-table table {
+#webkite-results.contact-list-table.webkite-dark table {
   border: none;
   border-collapse: separate;
   width: 100%;
   margin-bottom: 20px;
   max-width: 100%;
   text-align: left; }
-#webkite-results.contact-list-table thead {
+#webkite-results.contact-list-table.webkite-dark thead {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1); }
-#webkite-results.contact-list-table th, #webkite-results.contact-list-table td {
+#webkite-results.contact-list-table.webkite-dark th, #webkite-results.contact-list-table.webkite-dark td {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -609,22 +609,22 @@
   line-height: 1em;
   padding: 10px;
   vertical-align: middle; }
-#webkite-results.contact-list-table th.webkite-name, #webkite-results.contact-list-table th.webkite-address {
+#webkite-results.contact-list-table.webkite-dark th.webkite-name, #webkite-results.contact-list-table.webkite-dark th.webkite-address {
   border-right: 2px groove rgba(255, 255, 255, 0.05); }
-#webkite-results.contact-list-table th {
+#webkite-results.contact-list-table.webkite-dark th {
   color: rgba(255, 255, 255, 0.7);
   font-size: 0.875em; }
-  #webkite-results.contact-list-table th a {
+  #webkite-results.contact-list-table.webkite-dark th a {
     color: rgba(255, 255, 255, 0.7);
     padding: 0;
     font-weight: 700; }
-    #webkite-results.contact-list-table th a:hover {
+    #webkite-results.contact-list-table.webkite-dark th a:hover {
       color: rgba(255, 255, 255, 0.7); }
-#webkite-results.contact-list-table td li b {
+#webkite-results.contact-list-table.webkite-dark td li b {
   margin-bottom: 10px; }
-#webkite-results.contact-list-table td a {
+#webkite-results.contact-list-table.webkite-dark td a {
   font-size: 0.875em; }
-  #webkite-results.contact-list-table td a.webkite-email {
+  #webkite-results.contact-list-table.webkite-dark td a.webkite-email {
     display: inline-block;
     max-width: 100%;
     overflow: hidden;
@@ -634,39 +634,39 @@
     max-width: 100%;
     padding: 3px 0;
     margin: -3px 0; }
-  #webkite-results.contact-list-table td a.webkite-address > span {
+  #webkite-results.contact-list-table.webkite-dark td a.webkite-address > span {
     overflow: hidden;
     text-overflow: ellipsis;
     max-width: 100%;
     display: block;
     padding: 3px 0;
     margin: -3px 0; }
-  #webkite-results.contact-list-table td a.webkite-email {
+  #webkite-results.contact-list-table.webkite-dark td a.webkite-email {
     display: block; }
-#webkite-results.contact-list-table a.more-button, #webkite-results.contact-list-table a.less-button {
+#webkite-results.contact-list-table.webkite-dark a.more-button, #webkite-results.contact-list-table.webkite-dark a.less-button {
   background: url("open-close.png");
   display: inline-block;
   height: 18px;
   width: 18px; }
-#webkite-results.contact-list-table a.more-button {
+#webkite-results.contact-list-table.webkite-dark a.more-button {
   background-position: -36px 0; }
-  #webkite-results.contact-list-table a.more-button:hover {
+  #webkite-results.contact-list-table.webkite-dark a.more-button:hover {
     background-position: -36px -18px; }
-  #webkite-results.contact-list-table a.more-button:active {
+  #webkite-results.contact-list-table.webkite-dark a.more-button:active {
     background-position: -36px -36px; }
-#webkite-results.contact-list-table a.less-button {
+#webkite-results.contact-list-table.webkite-dark a.less-button {
   background-position: -54px 0; }
-  #webkite-results.contact-list-table a.less-button:hover {
+  #webkite-results.contact-list-table.webkite-dark a.less-button:hover {
     background-position: -54px -18px; }
-  #webkite-results.contact-list-table a.less-button:active {
+  #webkite-results.contact-list-table.webkite-dark a.less-button:active {
     background-position: -54px -36px; }
 
 /************************************ TABLE RESULTS */
-#webkite-results.contact-list-table tbody:nth-child(odd) {
+#webkite-results.contact-list-table.webkite-dark tbody:nth-child(odd) {
   background: rgba(255, 255, 255, 0.08); }
-#webkite-results.contact-list-table tbody:nth-child(even) {
+#webkite-results.contact-list-table.webkite-dark tbody:nth-child(even) {
   background: rgba(255, 255, 255, 0.05); }
-#webkite-results.contact-list-table div.image-thumbnail {
+#webkite-results.contact-list-table.webkite-dark div.image-thumbnail {
   -webkit-border-radius: 0.188em;
   -moz-border-radius: 0.188em;
   -ms-border-radius: 0.188em;
@@ -677,19 +677,19 @@
   display: block;
   height: 50px;
   width: 50px; }
-#webkite-results.contact-list-table th.image-thumbnail, #webkite-results.contact-list-table td.image-thumbnail {
+#webkite-results.contact-list-table.webkite-dark th.image-thumbnail, #webkite-results.contact-list-table.webkite-dark td.image-thumbnail {
   width: 70px; }
-#webkite-results.contact-list-table th.webkite-name, #webkite-results.contact-list-table td.webkite-name {
+#webkite-results.contact-list-table.webkite-dark th.webkite-name, #webkite-results.contact-list-table.webkite-dark td.webkite-name {
   width: 38%;
   max-width: 10em; }
-#webkite-results.contact-list-table .image-thumbnail + th.webkite-name, #webkite-results.contact-list-table .image-thumbnail + td.webkite-name {
+#webkite-results.contact-list-table.webkite-dark .image-thumbnail + th.webkite-name, #webkite-results.contact-list-table.webkite-dark .image-thumbnail + td.webkite-name {
   width: 30%; }
-#webkite-results.contact-list-table th.webkite-address, #webkite-results.contact-list-table td.webkite-address {
+#webkite-results.contact-list-table.webkite-dark th.webkite-address, #webkite-results.contact-list-table.webkite-dark td.webkite-address {
   width: auto;
   max-width: 10em; }
-#webkite-results.contact-list-table td.webkite-phone {
+#webkite-results.contact-list-table.webkite-dark td.webkite-phone {
   width: 20%; }
-  #webkite-results.contact-list-table td.webkite-phone a {
+  #webkite-results.contact-list-table.webkite-dark td.webkite-phone a {
     display: inline-block;
     max-width: 100%;
     overflow: hidden;
@@ -698,10 +698,10 @@
     max-width: 100px;
     padding: 3px 0;
     margin: -3px 0; }
-#webkite-results.contact-list-table th.open-toggle, #webkite-results.contact-list-table td.open-toggle {
+#webkite-results.contact-list-table.webkite-dark th.open-toggle, #webkite-results.contact-list-table.webkite-dark td.open-toggle {
   text-align: center;
   width: 45px; }
-#webkite-results.contact-list-table th.webkite-apply-sort a.asc:before, #webkite-results.contact-list-table th.webkite-apply-sort a.desc:before {
+#webkite-results.contact-list-table.webkite-dark th.webkite-apply-sort a.asc:before, #webkite-results.contact-list-table.webkite-dark th.webkite-apply-sort a.desc:before {
   background: url("sort-direction.png") no-repeat;
   content: "";
   display: inline-block;
@@ -710,29 +710,29 @@
   position: absolute;
   top: 10px;
   left: 10px; }
-#webkite-results.contact-list-table th.webkite-apply-sort a.asc:before {
+#webkite-results.contact-list-table.webkite-dark th.webkite-apply-sort a.asc:before {
   background-position: -10px 0; }
-#webkite-results.contact-list-table th.webkite-apply-sort a.desc:before {
+#webkite-results.contact-list-table.webkite-dark th.webkite-apply-sort a.desc:before {
   background-position: -10px -5px; }
-#webkite-results.contact-list-table td ul b {
+#webkite-results.contact-list-table.webkite-dark td ul b {
   font-weight: 700; }
-#webkite-results.contact-list-table td ul b, #webkite-results.contact-list-table td ul .facet-values {
+#webkite-results.contact-list-table.webkite-dark td ul b, #webkite-results.contact-list-table.webkite-dark td ul .facet-values {
   display: inline-block;
   width: 100%; }
-#webkite-results.contact-list-table td ul .facet-values {
+#webkite-results.contact-list-table.webkite-dark td ul .facet-values {
   font-size: 0.875em; }
-#webkite-results.contact-list-table td ul .facet-values a {
+#webkite-results.contact-list-table.webkite-dark td ul .facet-values a {
   font-size: 1em; }
-#webkite-results.contact-list-table td ul span.address a > span {
+#webkite-results.contact-list-table.webkite-dark td ul span.address a > span {
   display: inline-block;
   width: 100%; }
-#webkite-results.contact-list-table td ul .city, #webkite-results.contact-list-table td ul .state {
+#webkite-results.contact-list-table.webkite-dark td ul .city, #webkite-results.contact-list-table.webkite-dark td ul .state {
   display: inline; }
-#webkite-results.contact-list-table td ul .city + .state:before {
+#webkite-results.contact-list-table.webkite-dark td ul .city + .state:before {
   content: ", "; }
 
 /************************************ TABLE ITEM DETAILS */
-#webkite-results.contact-list-table .webkite-item-details {
+#webkite-results.contact-list-table.webkite-dark .webkite-item-details {
   background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 5%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.02)), color-stop(5%, rgba(0, 0, 0, 0)));
   background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 5%);
@@ -741,15 +741,15 @@
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 5%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33000000', endColorstr='#00000000',GradientType=0 );
   position: relative; }
-  #webkite-results.contact-list-table .webkite-item-details td {
+  #webkite-results.contact-list-table.webkite-dark .webkite-item-details td {
     vertical-align: top; }
-  #webkite-results.contact-list-table .webkite-item-details ul {
+  #webkite-results.contact-list-table.webkite-dark .webkite-item-details ul {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: inline-block;
     vertical-align: top; }
-  #webkite-results.contact-list-table .webkite-item-details img {
+  #webkite-results.contact-list-table.webkite-dark .webkite-item-details img {
     -webkit-border-radius: 0.325em;
     -moz-border-radius: 0.325em;
     -ms-border-radius: 0.325em;
@@ -759,16 +759,16 @@
     max-width: 100%;
     height: auto;
     margin-bottom: 20px; }
-  #webkite-results.contact-list-table .webkite-item-details li {
+  #webkite-results.contact-list-table.webkite-dark .webkite-item-details li {
     line-height: 1.2em;
     padding-bottom: 20px; }
-  #webkite-results.contact-list-table .webkite-item-details b, #webkite-results.contact-list-table .webkite-item-details span.facet-values {
+  #webkite-results.contact-list-table.webkite-dark .webkite-item-details b, #webkite-results.contact-list-table.webkite-dark .webkite-item-details span.facet-values {
     display: inline-block;
     width: 49%;
     vertical-align: top; }
-  #webkite-results.contact-list-table .webkite-item-details b {
+  #webkite-results.contact-list-table.webkite-dark .webkite-item-details b {
     font-weight: 700; }
-  #webkite-results.contact-list-table .webkite-item-details a.webkite-website {
+  #webkite-results.contact-list-table.webkite-dark .webkite-item-details a.webkite-website {
     display: inline-block;
     max-width: 100%;
     overflow: hidden;
@@ -777,11 +777,11 @@
     max-width: 10em; }
 
 /************************************** INLINE FILTERS */
-#webkite-results.contact-list-table .webkite-item-details li b {
+#webkite-results.contact-list-table.webkite-dark .webkite-item-details li b {
   position: relative; }
-  #webkite-results.contact-list-table .webkite-item-details li b.inline-filter-button + .facet-values {
+  #webkite-results.contact-list-table.webkite-dark .webkite-item-details li b.inline-filter-button + .facet-values {
     padding-top: 5px; }
-  #webkite-results.contact-list-table .webkite-item-details li b > .webkite-toggle {
+  #webkite-results.contact-list-table.webkite-dark .webkite-item-details li b > .webkite-toggle {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -803,7 +803,7 @@
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis; }
-    #webkite-results.contact-list-table .webkite-item-details li b > .webkite-toggle i {
+    #webkite-results.contact-list-table.webkite-dark .webkite-item-details li b > .webkite-toggle i {
       background: url("angle-dark.png") center center no-repeat;
       position: absolute;
       height: 10px;
@@ -812,10 +812,10 @@
       width: 10px;
       top: 50%;
       right: 5px; }
-    #webkite-results.contact-list-table .webkite-item-details li b > .webkite-toggle:hover {
+    #webkite-results.contact-list-table.webkite-dark .webkite-item-details li b > .webkite-toggle:hover {
       border: 1px solid rgba(255, 255, 255, 0.1);
       background: rgba(255, 255, 255, 0.05); }
-#webkite-results.contact-list-table .webkite-item-details .inline-filter-menu {
+#webkite-results.contact-list-table.webkite-dark .webkite-item-details .inline-filter-menu {
   -webkit-border-radius: 0.375em;
   -moz-border-radius: 0.375em;
   -ms-border-radius: 0.375em;
@@ -836,9 +836,9 @@
   width: 200px;
   overflow-y: auto;
   z-index: 2; }
-  #webkite-results.contact-list-table .webkite-item-details .inline-filter-menu li {
+  #webkite-results.contact-list-table.webkite-dark .webkite-item-details .inline-filter-menu li {
     padding-bottom: 0; }
-    #webkite-results.contact-list-table .webkite-item-details .inline-filter-menu li a {
+    #webkite-results.contact-list-table.webkite-dark .webkite-item-details .inline-filter-menu li a {
       color: #1b9cd2;
       display: block;
       font-size: 0.875em;
@@ -846,101 +846,101 @@
       max-width: 100%;
       padding: 3px 20px 3px 10px;
       line-height: 1em; }
-      #webkite-results.contact-list-table .webkite-item-details .inline-filter-menu li a:hover {
+      #webkite-results.contact-list-table.webkite-dark .webkite-item-details .inline-filter-menu li a:hover {
         background: #1b9cd2;
         color: white; }
 
 /******************************************* NO RESULTS */
-#webkite-results.contact-list-table .webkite-no-results {
+#webkite-results.contact-list-table.webkite-dark .webkite-no-results {
   padding: 20px 0;
   margin-bottom: 20px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.05); }
-  #webkite-results.contact-list-table .webkite-no-results h2 {
+  #webkite-results.contact-list-table.webkite-dark .webkite-no-results h2 {
     margin-bottom: 20px; }
 
 /************************************** ELEMENT QUERIES */
-#webkite-results.contact-list-table.xs .webkite-item-details ul {
+#webkite-results.contact-list-table.webkite-dark.xs .webkite-item-details ul {
   max-width: 100%;
   width: 100%;
   padding-left: 0; }
-#webkite-results.contact-list-table.xs .webkite-item-details li b, #webkite-results.contact-list-table.xs .webkite-item-details li .facet-values {
+#webkite-results.contact-list-table.webkite-dark.xs .webkite-item-details li b, #webkite-results.contact-list-table.webkite-dark.xs .webkite-item-details li .facet-values {
   width: 100%; }
-#webkite-results.contact-list-table.xs .webkite-item-details li .webkite-toggle {
+#webkite-results.contact-list-table.webkite-dark.xs .webkite-item-details li .webkite-toggle {
   width: auto; }
-#webkite-results.contact-list-table.xs .webkite-item-details .inline-filter-menu li a {
+#webkite-results.contact-list-table.webkite-dark.xs .webkite-item-details .inline-filter-menu li a {
   max-width: 100%;
   width: auto; }
-#webkite-results.contact-list-table.xs .webkite-item-details img {
+#webkite-results.contact-list-table.webkite-dark.xs .webkite-item-details img {
   margin-bottom: -10px; }
-#webkite-results.contact-list-table.xs .webkite-address, #webkite-results.contact-list-table.xs .webkite-name {
+#webkite-results.contact-list-table.webkite-dark.xs .webkite-address, #webkite-results.contact-list-table.webkite-dark.xs .webkite-name {
   border: none; }
-#webkite-results.contact-list-table.xs .webkite-name {
+#webkite-results.contact-list-table.webkite-dark.xs .webkite-name {
   width: 100%; }
-  #webkite-results.contact-list-table.xs .webkite-name li {
+  #webkite-results.contact-list-table.webkite-dark.xs .webkite-name li {
     margin-bottom: 10px; }
-#webkite-results.contact-list-table.xs .image-thumbnail + th.webkite-name, #webkite-results.contact-list-table.xs .image-thumbnail + td.webkite-name {
+#webkite-results.contact-list-table.webkite-dark.xs .image-thumbnail + th.webkite-name, #webkite-results.contact-list-table.webkite-dark.xs .image-thumbnail + td.webkite-name {
   width: 100%; }
-#webkite-results.contact-list-table.xs td {
+#webkite-results.contact-list-table.webkite-dark.xs td {
   vertical-align: top; }
-  #webkite-results.contact-list-table.xs td.open-toggle {
+  #webkite-results.contact-list-table.webkite-dark.xs td.open-toggle {
     vertical-align: middle; }
 
-#webkite-results.contact-list-table.sm .webkite-item-details li b, #webkite-results.contact-list-table.sm .webkite-item-details li .facet-values {
+#webkite-results.contact-list-table.webkite-dark.sm .webkite-item-details li b, #webkite-results.contact-list-table.webkite-dark.sm .webkite-item-details li .facet-values {
   width: 100%; }
-#webkite-results.contact-list-table.sm .webkite-item-details li .webkite-toggle {
+#webkite-results.contact-list-table.webkite-dark.sm .webkite-item-details li .webkite-toggle {
   width: auto; }
-#webkite-results.contact-list-table.sm .webkite-address {
+#webkite-results.contact-list-table.webkite-dark.sm .webkite-address {
   border: none; }
-  #webkite-results.contact-list-table.sm .webkite-address li {
+  #webkite-results.contact-list-table.webkite-dark.sm .webkite-address li {
     margin-bottom: 10px; }
-#webkite-results.contact-list-table.sm .webkite-name {
+#webkite-results.contact-list-table.webkite-dark.sm .webkite-name {
   width: 42%; }
-  #webkite-results.contact-list-table.sm .webkite-name h2 {
+  #webkite-results.contact-list-table.webkite-dark.sm .webkite-name h2 {
     line-height: 1.2em; }
-#webkite-results.contact-list-table.sm .image-thumbnail + th.webkite-name, #webkite-results.contact-list-table.sm .image-thumbnail + td.webkite-name {
+#webkite-results.contact-list-table.webkite-dark.sm .image-thumbnail + th.webkite-name, #webkite-results.contact-list-table.webkite-dark.sm .image-thumbnail + td.webkite-name {
   width: 35%; }
-#webkite-results.contact-list-table.sm td {
+#webkite-results.contact-list-table.webkite-dark.sm td {
   vertical-align: top; }
-  #webkite-results.contact-list-table.sm td.open-toggle {
+  #webkite-results.contact-list-table.webkite-dark.sm td.open-toggle {
     vertical-align: middle; }
-#webkite-results.contact-list-table.sm th.image-thumbnail, #webkite-results.contact-list-table.sm td.image-thumbnail {
+#webkite-results.contact-list-table.webkite-dark.sm th.image-thumbnail, #webkite-results.contact-list-table.webkite-dark.sm td.image-thumbnail {
   width: 45px; }
-#webkite-results.contact-list-table.sm div.image-thumbnail {
+#webkite-results.contact-list-table.webkite-dark.sm div.image-thumbnail {
   width: 25px;
   height: 25px; }
 
 /***************************************  DISPLAY RULES */
-#webkite-results.contact-list-table.xs .until-xs, #webkite-results.contact-list-table.xs .until-sm, #webkite-results.contact-list-table.xs .sm-only, #webkite-results.contact-list-table.xs .md-only, #webkite-results.contact-list-table.xs .lg-only {
+#webkite-results.contact-list-table.webkite-dark.xs .until-xs, #webkite-results.contact-list-table.webkite-dark.xs .until-sm, #webkite-results.contact-list-table.webkite-dark.xs .sm-only, #webkite-results.contact-list-table.webkite-dark.xs .md-only, #webkite-results.contact-list-table.webkite-dark.xs .lg-only {
   display: none; }
-#webkite-results.contact-list-table.xs .xs-only, #webkite-results.contact-list-table.xs .webkite-results-header .xs-only {
+#webkite-results.contact-list-table.webkite-dark.xs .xs-only, #webkite-results.contact-list-table.webkite-dark.xs .webkite-results-header .xs-only {
   display: inline-block;
   width: 100%; }
-#webkite-results.contact-list-table.xs td.xs-only, #webkite-results.contact-list-table.xs th.xs-only {
+#webkite-results.contact-list-table.webkite-dark.xs td.xs-only, #webkite-results.contact-list-table.webkite-dark.xs th.xs-only {
   display: table-cell; }
 
-#webkite-results.contact-list-table.sm .until-sm, #webkite-results.contact-list-table.sm .xs-only, #webkite-results.contact-list-table.sm .md-only, #webkite-results.contact-list-table.sm .lg-only {
+#webkite-results.contact-list-table.webkite-dark.sm .until-sm, #webkite-results.contact-list-table.webkite-dark.sm .xs-only, #webkite-results.contact-list-table.webkite-dark.sm .md-only, #webkite-results.contact-list-table.webkite-dark.sm .lg-only {
   display: none; }
-#webkite-results.contact-list-table.sm .sm-only {
+#webkite-results.contact-list-table.webkite-dark.sm .sm-only {
   display: inline-block; }
-#webkite-results.contact-list-table.sm td.sm-only, #webkite-results.contact-list-table.sm th.sm-only {
+#webkite-results.contact-list-table.webkite-dark.sm td.sm-only, #webkite-results.contact-list-table.webkite-dark.sm th.sm-only {
   display: table-cell; }
 
-#webkite-results.contact-list-table .until-md, #webkite-results.contact-list-table .xs-only, #webkite-results.contact-list-table .sm-only, #webkite-results.contact-list-table .lg-only, #webkite-results.contact-list-table.md .until-md, #webkite-results.contact-list-table.md .xs-only, #webkite-results.contact-list-table.md .sm-only, #webkite-results.contact-list-table.md .lg-only, #webkite-results.contact-list-table.xl .until-md, #webkite-results.contact-list-table.xl .xs-only, #webkite-results.contact-list-table.xl .sm-only, #webkite-results.contact-list-table.xl .lg-only {
+#webkite-results.contact-list-table.webkite-dark .until-md, #webkite-results.contact-list-table.webkite-dark .xs-only, #webkite-results.contact-list-table.webkite-dark .sm-only, #webkite-results.contact-list-table.webkite-dark .lg-only, #webkite-results.contact-list-table.webkite-dark.md .until-md, #webkite-results.contact-list-table.webkite-dark.md .xs-only, #webkite-results.contact-list-table.webkite-dark.md .sm-only, #webkite-results.contact-list-table.webkite-dark.md .lg-only, #webkite-results.contact-list-table.webkite-dark.xl .until-md, #webkite-results.contact-list-table.webkite-dark.xl .xs-only, #webkite-results.contact-list-table.webkite-dark.xl .sm-only, #webkite-results.contact-list-table.webkite-dark.xl .lg-only {
   display: none; }
-#webkite-results.contact-list-table .webkite-results-header .xs-only, #webkite-results.contact-list-table.md .webkite-results-header .xs-only, #webkite-results.contact-list-table.xl .webkite-results-header .xs-only {
+#webkite-results.contact-list-table.webkite-dark .webkite-results-header .xs-only, #webkite-results.contact-list-table.webkite-dark.md .webkite-results-header .xs-only, #webkite-results.contact-list-table.webkite-dark.xl .webkite-results-header .xs-only {
   display: none; }
-#webkite-results.contact-list-table .md-only, #webkite-results.contact-list-table.md .md-only, #webkite-results.contact-list-table.xl .md-only {
+#webkite-results.contact-list-table.webkite-dark .md-only, #webkite-results.contact-list-table.webkite-dark.md .md-only, #webkite-results.contact-list-table.webkite-dark.xl .md-only {
   display: inline-block; }
-#webkite-results.contact-list-table td.md-only, #webkite-results.contact-list-table th.md-only, #webkite-results.contact-list-table.md td.md-only, #webkite-results.contact-list-table.md th.md-only, #webkite-results.contact-list-table.xl td.md-only, #webkite-results.contact-list-table.xl th.md-only {
+#webkite-results.contact-list-table.webkite-dark td.md-only, #webkite-results.contact-list-table.webkite-dark th.md-only, #webkite-results.contact-list-table.webkite-dark.md td.md-only, #webkite-results.contact-list-table.webkite-dark.md th.md-only, #webkite-results.contact-list-table.webkite-dark.xl td.md-only, #webkite-results.contact-list-table.webkite-dark.xl th.md-only {
   display: table-cell; }
-#webkite-results.contact-list-table th span.md-only, #webkite-results.contact-list-table.md th span.md-only, #webkite-results.contact-list-table.xl th span.md-only {
+#webkite-results.contact-list-table.webkite-dark th span.md-only, #webkite-results.contact-list-table.webkite-dark.md th span.md-only, #webkite-results.contact-list-table.webkite-dark.xl th span.md-only {
   line-height: 1; }
 
-#webkite-results.contact-list-table.lg .until-lg, #webkite-results.contact-list-table.lg .xs-only, #webkite-results.contact-list-table.lg .sm-only, #webkite-results.contact-list-table.lg .md-only {
+#webkite-results.contact-list-table.webkite-dark.lg .until-lg, #webkite-results.contact-list-table.webkite-dark.lg .xs-only, #webkite-results.contact-list-table.webkite-dark.lg .sm-only, #webkite-results.contact-list-table.webkite-dark.lg .md-only {
   display: none; }
-#webkite-results.contact-list-table.lg .lg-only {
+#webkite-results.contact-list-table.webkite-dark.lg .lg-only {
   display: inline-block; }
-#webkite-results.contact-list-table.lg td.lg-only, #webkite-results.contact-list-table.lg th.lg-only {
+#webkite-results.contact-list-table.webkite-dark.lg td.lg-only, #webkite-results.contact-list-table.webkite-dark.lg th.lg-only {
   display: table-cell; }
-#webkite-results.contact-list-table.lg th span.lg-only {
+#webkite-results.contact-list-table.webkite-dark.lg th span.lg-only {
   line-height: 1; }

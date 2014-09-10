@@ -5,12 +5,12 @@ $themeName:contact-list-landscape;
 @import '../globals/universals';
 
 /* RESET */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
   @include resetThings;
   }
 
 /****************************************** BEGIN STYLES */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
   background: $backgroundColor;
   border: 1px solid $lighterOpacity;
   @include roundedUp(.625em);
@@ -30,7 +30,7 @@ $themeName:contact-list-landscape;
   }
   
 /* TYPOGRAPHY */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
   h2{
     @include hyphenGreat;
     color: $medOpacity;
@@ -47,7 +47,7 @@ $themeName:contact-list-landscape;
 @include universalStyles;
   
 /********************************************** BLOCKS */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
   
   .webkite-results-container{
     @include breakThat;
@@ -66,7 +66,7 @@ $themeName:contact-list-landscape;
   }
   
 /************************************ PORTRAIT RESULTS */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
  
   .webkite-result{
     @include boxedUp;
@@ -145,7 +145,7 @@ $themeName:contact-list-landscape;
   }
   
 /*************************************** DETAILS MODAL */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
   .webkite-item-details{
     @include boxedUp;
     max-width: 43.750em;
@@ -281,7 +281,7 @@ $themeName:contact-list-landscape;
   
   }
 /************************************** INLINE FILTERS */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
 
   .webkite-result-modal li b{
     position: relative;
@@ -353,7 +353,7 @@ $themeName:contact-list-landscape;
 }
 
 /******************************************* NO RESULTS */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
   
   .webkite-no-results{
     padding: $mainGutter 0;
@@ -366,7 +366,7 @@ $themeName:contact-list-landscape;
   }
    
 /************************************** ELEMENT QUERIES */
-#webkite-results.#{$themeName}.xs{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}.xs{
   .webkite-block{
     width: 100%;
     padding-right: 0;
@@ -397,7 +397,7 @@ $themeName:contact-list-landscape;
     }
   }
   
-#webkite-results.#{$themeName}.sm{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}.sm{
   .webkite-result-wrapper{width: 48%;}
   .webkite-item-details{
     max-width: 25em;
@@ -419,7 +419,7 @@ $themeName:contact-list-landscape;
   
 /* ie 10/11 modal fixes */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
-  #webkite-results.#{$themeName}{
+  #webkite-results.#{$themeName}.webkite-#{$colorVariant}{
     .webkite-item-details{
       width:auto;
       max-width: 43.750em;
@@ -432,7 +432,7 @@ $themeName:contact-list-landscape;
       transform: translateY(-50%) translateX(-50%);
       }
     }
-  #webkite-results.#{$themeName}.xs{
+  #webkite-results.#{$themeName}.webkite-#{$colorVariant}.xs{
     .webkite-item-details{
       max-width: 21.875em;
       width:auto;
@@ -441,7 +441,7 @@ $themeName:contact-list-landscape;
       margin-right:-50%;
       }
     }
-  #webkite-results.#{$themeName}.sm{
+  #webkite-results.#{$themeName}.webkite-#{$colorVariant}.sm{
     .webkite-item-details{
       max-width: 25em;
       width:auto;
@@ -453,6 +453,6 @@ $themeName:contact-list-landscape;
 }
   
   
-#webkite-results.#{$themeName}.lg, #webkite-results.#{$themeName}.xl{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}.lg, #webkite-results.#{$themeName}.webkite-#{$colorVariant}.xl{
   .webkite-result-wrapper{width: 23%;}
   }

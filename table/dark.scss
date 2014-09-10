@@ -5,12 +5,12 @@ $themeName:contact-list-table;
 @import '../globals/universals';
 
 /* RESET */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
   @include resetThings;
   }
 
 /****************************************** BEGIN STYLES */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
   background: $backgroundColor;
   border: 1px solid $lighterOpacity;
   @include roundedUp(.625em);
@@ -28,7 +28,7 @@ $themeName:contact-list-table;
   }
   
 /* TYPOGRAPHY */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
   h2{
     @include hyphenGreat;
     color: $medOpacity;
@@ -45,7 +45,7 @@ $themeName:contact-list-table;
 @include universalStyles;
   
 /********************************************** BLOCKS */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
 
   table{
     border: none;
@@ -120,7 +120,7 @@ $themeName:contact-list-table;
  
  } 
 /************************************ TABLE RESULTS */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
   
   tbody:nth-child(odd){
     background: $lighterthanlightestOpacity;
@@ -201,7 +201,7 @@ $themeName:contact-list-table;
   }
   
 /************************************ TABLE ITEM DETAILS */ 
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
   
   .webkite-item-details{
     background: -moz-linear-gradient(top,  rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 5%);
@@ -235,7 +235,7 @@ $themeName:contact-list-table;
   }
 
 /************************************** INLINE FILTERS */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
 
   .webkite-item-details li b{
     position: relative;
@@ -305,7 +305,7 @@ $themeName:contact-list-table;
 }
 
 /******************************************* NO RESULTS */
-#webkite-results.#{$themeName}{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
   
   .webkite-no-results{
     padding: $mainGutter 0;
@@ -320,7 +320,7 @@ $themeName:contact-list-table;
 
 /************************************** ELEMENT QUERIES */
 
-#webkite-results.#{$themeName}.xs{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}.xs{
   .webkite-item-details ul{max-width:100%;width: 100%; padding-left: 0;}
   .webkite-item-details li{
     b, .facet-values{width: 100%;}
@@ -344,7 +344,7 @@ $themeName:contact-list-table;
   td{vertical-align: top; &.open-toggle{vertical-align: middle;}}
   }
   
-#webkite-results.#{$themeName}.sm{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}.sm{
   .webkite-item-details li{
     b, .facet-values{width: 100%;}
     .webkite-toggle{width: auto;}
@@ -365,24 +365,24 @@ $themeName:contact-list-table;
   }
   
 /***************************************  DISPLAY RULES */
-#webkite-results.#{$themeName}.xs{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}.xs{
   .until-xs, .until-sm, .sm-only, .md-only, .lg-only{display: none;}
   .xs-only, .webkite-results-header .xs-only{display: inline-block; width: 100%;}
   td.xs-only, th.xs-only{display: table-cell;}
   }
-#webkite-results.#{$themeName}.sm{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}.sm{
   .until-sm, .xs-only, .md-only, .lg-only{display: none;}
   .sm-only{display: inline-block;}
   td.sm-only, th.sm-only{display: table-cell;}
   }
-#webkite-results.#{$themeName}, #webkite-results.#{$themeName}.md, #webkite-results.#{$themeName}.xl{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}, #webkite-results.#{$themeName}.webkite-#{$colorVariant}.md, #webkite-results.#{$themeName}.webkite-#{$colorVariant}.xl{
   .until-md, .xs-only, .sm-only, .lg-only{display: none;}
   .webkite-results-header .xs-only{display: none;}
   .md-only{display: inline-block;}
   td.md-only, th.md-only{display: table-cell;}
   th span.md-only{line-height: 1;}
   }
-#webkite-results.#{$themeName}.lg{
+#webkite-results.#{$themeName}.webkite-#{$colorVariant}.lg{
   .until-lg, .xs-only, .sm-only, .md-only{display: none;}
   .lg-only{display: inline-block;}
   td.lg-only, th.lg-only{display: table-cell;}
