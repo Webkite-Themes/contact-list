@@ -21,6 +21,7 @@ $themeName:contact-list-table;
   max-width: 43.75em;
   margin: 0 auto;
   padding: $mainGutter;
+  -webkit-backface-visibility: hidden;
   a{color:$linkColor;
       text-decoration: none; 
     &:hover{color: $linkHover;}
@@ -121,7 +122,9 @@ $themeName:contact-list-table;
  } 
 /************************************ TABLE RESULTS */
 #webkite-results.#{$themeName}.webkite-#{$colorVariant}{
-  
+  tbody{
+    -webkit-backface-visibility: hidden;
+    }
   tbody:nth-child(odd){
     background: $lighterthanlightestOpacity;
     }

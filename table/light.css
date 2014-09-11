@@ -68,7 +68,8 @@
   font: 400 16px/normal "Open Sans";
   max-width: 43.75em;
   margin: 0 auto;
-  padding: 20px; }
+  padding: 20px;
+  -webkit-backface-visibility: hidden; }
   #webkite-results.contact-list-table.webkite-light a {
     color: #1b9cd2;
     text-decoration: none; }
@@ -662,6 +663,8 @@
     background-position: -18px -36px; }
 
 /************************************ TABLE RESULTS */
+#webkite-results.contact-list-table.webkite-light tbody {
+  -webkit-backface-visibility: hidden; }
 #webkite-results.contact-list-table.webkite-light tbody:nth-child(odd) {
   background: rgba(0, 0, 0, 0.04); }
 #webkite-results.contact-list-table.webkite-light tbody:nth-child(even) {
