@@ -148,64 +148,52 @@ $themeName:contact-list-portrait;
 #webkite-results.#{$themeName}.webkite-#{$colorVariant}{
   .webkite-item-details{
     @include boxedUp;
-    max-width: 43.750em;
-    padding: $mainGutter;
     position: fixed;
-    left:0;
-    right:0;
-    top:50%;
-    margin-left:50%;
-    margin-right:-50%;
+    width: 680px;
+    left:50%;
+    top:0;
+    margin-left:-340px;
+    padding: $mainGutter;
     z-index: 999999;
-    -webkit-transform: translateY(-50%) translateX(-50%);
-    -ms-transform: translateY(-50%) translateX(-50%);
-    transform: translateY(-50%) translateX(-50%);
-    -ms-transform: none\9;    
-    width:700px\9;
-    max-width:700px\9;
-    top:0\9;
-    left:50%\9;
-    margin-left:-350px\9;
-    margin-right:0\9;
     h2{font: 700 1.5em/1 "Open Sans";}
     }
   .webkite-result-modal{
     @include boxedUp;
-    @include roundedUp (.625em);
-    @include shadowHere;
-    background: $backgroundColor;
-    padding: $mainGutter $mainGutter/5*2 $mainGutter*2 $mainGutter/4*3;
+    @include roundedUp (10px);
+    -moz-box-shadow:0 3px 7px rgba(0,0,0,0.2);
+    -webkit-box-shadow:0 3px 7px rgba(0,0,0,0.2);
+    box-shadow:0 3px 7px rgba(0,0,0,0.2);
+    background: #fff;
+    border:1px solid rgba(0, 0, 0, 0.15);
+    padding: $mainGutter $mainGutter/5*2 $mainGutter $mainGutter/4*3;
     position:relative;
-    overflow:hidden;
     max-height:100%;
-    text-align: justify;
-    border:1px solid $lighterOpacity;
-   a.webkite-website{@include ellipsisThis;}
-   a.webkite-address span{
+    .webkite-toggle-item{
+      position:absolute;
+      height:24px;
+      width:24px;
+      text-indent:-99999px;
+      background:url("modal-close-light.png") 0 0 no-repeat;
+      top:-9px;
+      right:-10px;
+      }    
+    a.webkite-website{@include ellipsisThis;}
+    a.webkite-address span{
       display: inline-block;
-			width: 100%;
+      width: 100%;
       &.city, &.state{display: inline;}
       }
     .city + .state:before{content: ", ";}
-    a.less-button{
-      @include boxedUp;
-      @include roundedUp(.188em);
-      color: white;
-      display: inline-block;
-      vertical-align:top;
-      font: 400 .75em/1 "Open Sans";
-      padding: $mainGutter/5 $mainGutter/2;
-      text-align: center;
-      background: $lightOpacity;
-      &:hover{background: $lightOpacity*2;}
-      }
     }
   .webkite-modal-content{
-    max-height:62vh;
+    max-height:650px;
     padding-right:$mainGutter/5*3;
     padding-left: $mainGutter/4;
+    padding-bottom:1px;
+    margin-bottom:-1px;
     overflow:hidden;
     overflow-y:auto;
+    -webkit-overflow-scrolling: touch;
     }
   .webkite-modal-block-forty, .webkite-modal-block-sixty{
     @include boxedUp;
@@ -230,8 +218,8 @@ $themeName:contact-list-portrait;
   .webkite-modal-block-sixty{
     width: 59%;
     padding-left: $mainGutter;
+    li:last-child{padding-bottom:0;}
     }
-  
   .webkite-modal-img{
     width:100%;
     height:0;
@@ -251,20 +239,6 @@ $themeName:contact-list-portrait;
       left:0;
       }
     }
-  
-  .webkite-modal-foot{
-    @include boxedUp;
-    text-align:right;
-    padding:$mainGutter/2;
-    overflow:hidden;    
-    border-top:1px solid $lighterOpacity;
-    height:$mainGutter*2;
-    position:absolute;
-    right:0;
-    bottom:0;
-    left:0;
-    }
-    
   /* blocking */
   .webkite-modal-blocking{
     @include roundedUp (.625em);
@@ -364,7 +338,7 @@ $themeName:contact-list-portrait;
       }
     }
 
-  }
+  }  
    
 /************************************** ELEMENT QUERIES */
 #webkite-results.#{$themeName}.webkite-#{$colorVariant}.xs{
@@ -373,86 +347,93 @@ $themeName:contact-list-portrait;
     padding-right: 0;
     }
   .webkite-result-wrapper{width: 100%;}
-  .webkite-item-details{
-    max-width: 21.875em;
-    width:100%\9;
-    max-width:100%\9;
-    margin:0\9;
-    left:0\9;
-    .webkite-result-modal{
-      padding-left:$mainGutter/4; 
-      padding-right:$mainGutter/4; 
-      padding-top:$mainGutter/2;
-      .inline-filter-menu{
-        width:auto;
-        li{
-          a{padding:$mainGutter/5*2 $mainGutter/2;}
-          }
-        }
-      }
-    .webkite-modal-content {
-      padding-right:$mainGutter/4;
-      }
-    .webkite-modal-block-forty, .webkite-modal-block-sixty{width: 100%; padding: 0;}
-    li{b, .facet-values{width: 100%;}}   
-    }
   }
   
 #webkite-results.#{$themeName}.webkite-#{$colorVariant}.sm{
   .webkite-result-wrapper{width: 48%;}
-  .webkite-item-details{
-    max-width: 25em;
-    width:100%\9;
-    max-width:100%\9;
-    margin:0\9;
-    left:0\9;
+  }
+  
+/* modal sizings */
+@media screen and (max-width: 680px){
+  //sm
+  #webkite-results.#{$themeName}.webkite-#{$colorVariant}{
+    .webkite-item-details{
+      width: 400px;
+      left:50%;
+      margin-left:-200px;
+      }
     .webkite-result-modal{
+      .webkite-modal-block-forty, .webkite-modal-block-sixty{width: 100%; padding: 0;}
+      li{b, .facet-values{width: 100%;}}  
       .inline-filter-menu{
         li{
           a{padding:$mainGutter/5 $mainGutter $mainGutter/5 $mainGutter/2;}
           }
         }
       }
-    .webkite-modal-block-forty, .webkite-modal-block-sixty{width: 100%; padding: 0;}
-    li{b, .facet-values{width: 100%;}}  
     }
-  }
-  
-/* ie 10/11 modal fixes */
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
-#webkite-results.#{$themeName}.webkite-#{$colorVariant}{
-  .webkite-item-details{
-    width:auto;
-    max-width: 43.750em;
-    left:0;
-    right:0;
-    top:50%;
-    margin-left:50%;
-    margin-right:-50%;
-    -ms-transform: translateY(-50%) translateX(-50%);
-    transform: translateY(-50%) translateX(-50%);
-    }
-  }
-#webkite-results.#{$themeName}.webkite-#{$colorVariant}.xs{
-  .webkite-item-details{
-    max-width: 21.875em;
-    width:auto;
-    left:0;
-    margin-left:50%;
-    margin-right:-50%;
-    }
-  }
-#webkite-results.#{$themeName}.webkite-#{$colorVariant}.sm{
-  .webkite-item-details{
-    max-width: 25em;
-    width:auto;
-    left:0;
-    margin-left:50%;
-    margin-right:-50%;
-    }
-  }
 }
-  
+@media screen and (max-width:470px){
+  //xs
+  #webkite-results.#{$themeName}.webkite-#{$colorVariant}{
+    .webkite-item-details{
+      width: 320px;
+      left:50%;
+      margin-left:-160px;
+      .webkite-result-modal{
+        padding-left:$mainGutter/4; 
+        padding-right:$mainGutter/4; 
+        padding-top:$mainGutter/2;
+        .inline-filter-menu{
+          width:auto;
+          li{
+            a{padding:$mainGutter/5*2 $mainGutter/2;}
+            }
+          }
+        }
+      .webkite-modal-content {
+        padding-right:$mainGutter/4;
+        }
+      .webkite-modal-block-forty, .webkite-modal-block-sixty{width: 100%; padding: 0;}
+      li{b, .facet-values{width: 100%;}}   
+      }
+    }
+}
+@media screen and (max-width:320px){
+  #webkite-results.#{$themeName}.webkite-#{$colorVariant}{
+    .webkite-item-details{
+      width: 100%;
+      left:0;
+      margin-left:0;
+      }
+    }
+}
+
+@media screen and (max-height: 730px){
+  #webkite-results.#{$themeName}.webkite-#{$colorVariant} .webkite-modal-content{
+    max-height:520px;
+    }
+}
+@media screen and (max-height: 600px){
+  #webkite-results.#{$themeName}.webkite-#{$colorVariant} .webkite-modal-content{
+    max-height:420px;
+    }
+}
+@media screen and (max-height: 500px){
+  #webkite-results.#{$themeName}.webkite-#{$colorVariant} .webkite-modal-content{
+    max-height:320px;
+    }
+}
+@media screen and (max-height: 400px){
+  #webkite-results.#{$themeName}.webkite-#{$colorVariant} .webkite-modal-content{
+    max-height:220px;
+    }
+}
+@media screen and (max-height: 300px){
+  #webkite-results.#{$themeName}.webkite-#{$colorVariant} .webkite-modal-content{
+    max-height:180px;
+    }
+}
   
 #webkite-results.#{$themeName}.webkite-#{$colorVariant}.lg, #webkite-results.#{$themeName}.webkite-#{$colorVariant}.xl{
   .webkite-result-wrapper{width: 23%;}

@@ -32,6 +32,8 @@ assets:
     - sort-direction.png
     - gradient-fallback-light.png
     - gradient-fallback-dark.png
+    - modal-close-light.png
+    - modal-close-dark.png
   
   stylesheets:
     - light.css

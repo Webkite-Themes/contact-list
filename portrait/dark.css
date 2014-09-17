@@ -717,25 +717,13 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    max-width: 43.75em;
-    padding: 20px;
     position: fixed;
-    left: 0;
-    right: 0;
-    top: 50%;
-    margin-left: 50%;
-    margin-right: -50%;
-    z-index: 999999;
-    -webkit-transform: translateY(-50%) translateX(-50%);
-    -ms-transform: translateY(-50%) translateX(-50%);
-    transform: translateY(-50%) translateX(-50%);
-    -ms-transform: none\9;
-    width: 700px\9;
-    max-width: 700px\9;
-    top: 0\9;
-    left: 50% \9;
-    margin-left: -350px\9;
-    margin-right: 0\9; }
+    width: 680px;
+    left: 50%;
+    top: 0;
+    margin-left: -340px;
+    padding: 20px;
+    z-index: 999999; }
     #webkite-results.contact-list-portrait.webkite-dark .webkite-item-details h2 {
       font: 700 1.5em/1 "Open Sans"; }
   #webkite-results.contact-list-portrait.webkite-dark .webkite-result-modal {
@@ -752,11 +740,17 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5), 0 1px 1px rgba(0, 0, 0, 0.5);
     background: rgba(0, 0, 0, 0.9);
     border: 1px solid rgba(255, 255, 255, 0.2);
-    padding: 20px 8px 40px 15px;
+    padding: 20px 8px 20px 15px;
     position: relative;
-    overflow: hidden;
-    max-height: 100%;
-    text-align: justify; }
+    max-height: 100%; }
+    #webkite-results.contact-list-portrait.webkite-dark .webkite-result-modal .webkite-toggle-item {
+      position: absolute;
+      height: 24px;
+      width: 24px;
+      text-indent: -99999px;
+      background: url("modal-close-dark.png") 0 0 no-repeat;
+      top: -9px;
+      right: -10px; }
     #webkite-results.contact-list-portrait.webkite-dark .webkite-result-modal a.webkite-website {
       display: inline-block;
       max-width: 100%;
@@ -770,30 +764,15 @@
         display: inline; }
     #webkite-results.contact-list-portrait.webkite-dark .webkite-result-modal .city + .state:before {
       content: ", "; }
-    #webkite-results.contact-list-portrait.webkite-dark .webkite-result-modal a.less-button {
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      box-sizing: border-box;
-      -webkit-border-radius: 0.188em;
-      -moz-border-radius: 0.188em;
-      -ms-border-radius: 0.188em;
-      -o-border-radius: 0.188em;
-      border-radius: 0.188em;
-      color: white;
-      display: inline-block;
-      vertical-align: top;
-      font: 400 .75em/1 "Open Sans";
-      padding: 4px 10px;
-      text-align: center;
-      background: rgba(255, 255, 255, 0.7); }
-      #webkite-results.contact-list-portrait.webkite-dark .webkite-result-modal a.less-button:hover {
-        background: rgba(255, 255, 255, 0.7); }
   #webkite-results.contact-list-portrait.webkite-dark .webkite-modal-content {
-    max-height: 62vh;
+    max-height: 650px;
     padding-right: 12px;
     padding-left: 5px;
+    padding-bottom: 1px;
+    margin-bottom: -1px;
     overflow: hidden;
-    overflow-y: auto; }
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch; }
   #webkite-results.contact-list-portrait.webkite-dark .webkite-modal-block-forty, #webkite-results.contact-list-portrait.webkite-dark .webkite-modal-block-sixty {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -817,6 +796,8 @@
   #webkite-results.contact-list-portrait.webkite-dark .webkite-modal-block-sixty {
     width: 59%;
     padding-left: 20px; }
+    #webkite-results.contact-list-portrait.webkite-dark .webkite-modal-block-sixty li:last-child {
+      padding-bottom: 0; }
   #webkite-results.contact-list-portrait.webkite-dark .webkite-modal-img {
     width: 100%;
     height: 0;
@@ -834,19 +815,6 @@
       right: 0;
       bottom: 0;
       left: 0; }
-  #webkite-results.contact-list-portrait.webkite-dark .webkite-modal-foot {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    text-align: right;
-    padding: 10px;
-    overflow: hidden;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    height: 40px;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0; }
   #webkite-results.contact-list-portrait.webkite-dark .webkite-modal-blocking {
     -webkit-border-radius: 0.625em;
     -moz-border-radius: 0.625em;
@@ -951,68 +919,70 @@
   padding-right: 0; }
 #webkite-results.contact-list-portrait.webkite-dark.xs .webkite-result-wrapper {
   width: 100%; }
-#webkite-results.contact-list-portrait.webkite-dark.xs .webkite-item-details {
-  max-width: 21.875em;
-  width: 100% \9;
-  max-width: 100% \9;
-  margin: 0\9;
-  left: 0\9; }
-  #webkite-results.contact-list-portrait.webkite-dark.xs .webkite-item-details .webkite-result-modal {
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 10px; }
-    #webkite-results.contact-list-portrait.webkite-dark.xs .webkite-item-details .webkite-result-modal .inline-filter-menu {
-      width: auto; }
-      #webkite-results.contact-list-portrait.webkite-dark.xs .webkite-item-details .webkite-result-modal .inline-filter-menu li a {
-        padding: 8px 10px; }
-  #webkite-results.contact-list-portrait.webkite-dark.xs .webkite-item-details .webkite-modal-content {
-    padding-right: 5px; }
-  #webkite-results.contact-list-portrait.webkite-dark.xs .webkite-item-details .webkite-modal-block-forty, #webkite-results.contact-list-portrait.webkite-dark.xs .webkite-item-details .webkite-modal-block-sixty {
-    width: 100%;
-    padding: 0; }
-  #webkite-results.contact-list-portrait.webkite-dark.xs .webkite-item-details li b, #webkite-results.contact-list-portrait.webkite-dark.xs .webkite-item-details li .facet-values {
-    width: 100%; }
 
 #webkite-results.contact-list-portrait.webkite-dark.sm .webkite-result-wrapper {
   width: 48%; }
-#webkite-results.contact-list-portrait.webkite-dark.sm .webkite-item-details {
-  max-width: 25em;
-  width: 100% \9;
-  max-width: 100% \9;
-  margin: 0\9;
-  left: 0\9; }
-  #webkite-results.contact-list-portrait.webkite-dark.sm .webkite-item-details .webkite-result-modal .inline-filter-menu li a {
-    padding: 4px 20px 4px 10px; }
-  #webkite-results.contact-list-portrait.webkite-dark.sm .webkite-item-details .webkite-modal-block-forty, #webkite-results.contact-list-portrait.webkite-dark.sm .webkite-item-details .webkite-modal-block-sixty {
+
+/* modal sizings */
+@media screen and (max-width: 680px) {
+  #webkite-results.contact-list-portrait.webkite-dark .webkite-item-details {
+    width: 400px;
+    left: 50%;
+    margin-left: -200px; }
+  #webkite-results.contact-list-portrait.webkite-dark .webkite-result-modal .webkite-modal-block-forty, #webkite-results.contact-list-portrait.webkite-dark .webkite-result-modal .webkite-modal-block-sixty {
     width: 100%;
     padding: 0; }
-  #webkite-results.contact-list-portrait.webkite-dark.sm .webkite-item-details li b, #webkite-results.contact-list-portrait.webkite-dark.sm .webkite-item-details li .facet-values {
+  #webkite-results.contact-list-portrait.webkite-dark .webkite-result-modal li b, #webkite-results.contact-list-portrait.webkite-dark .webkite-result-modal li .facet-values {
     width: 100%; }
+  #webkite-results.contact-list-portrait.webkite-dark .webkite-result-modal .inline-filter-menu li a {
+    padding: 4px 20px 4px 10px; } }
 
-/* ie 10/11 modal fixes */
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+@media screen and (max-width: 470px) {
   #webkite-results.contact-list-portrait.webkite-dark .webkite-item-details {
-    width: auto;
-    max-width: 43.75em;
+    width: 320px;
+    left: 50%;
+    margin-left: -160px; }
+    #webkite-results.contact-list-portrait.webkite-dark .webkite-item-details .webkite-result-modal {
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-top: 10px; }
+      #webkite-results.contact-list-portrait.webkite-dark .webkite-item-details .webkite-result-modal .inline-filter-menu {
+        width: auto; }
+        #webkite-results.contact-list-portrait.webkite-dark .webkite-item-details .webkite-result-modal .inline-filter-menu li a {
+          padding: 8px 10px; }
+    #webkite-results.contact-list-portrait.webkite-dark .webkite-item-details .webkite-modal-content {
+      padding-right: 5px; }
+    #webkite-results.contact-list-portrait.webkite-dark .webkite-item-details .webkite-modal-block-forty, #webkite-results.contact-list-portrait.webkite-dark .webkite-item-details .webkite-modal-block-sixty {
+      width: 100%;
+      padding: 0; }
+    #webkite-results.contact-list-portrait.webkite-dark .webkite-item-details li b, #webkite-results.contact-list-portrait.webkite-dark .webkite-item-details li .facet-values {
+      width: 100%; } }
+
+@media screen and (max-width: 320px) {
+  #webkite-results.contact-list-portrait.webkite-dark .webkite-item-details {
+    width: 100%;
     left: 0;
-    right: 0;
-    top: 50%;
-    margin-left: 50%;
-    margin-right: -50%;
-    -ms-transform: translateY(-50%) translateX(-50%);
-    transform: translateY(-50%) translateX(-50%); }
-  #webkite-results.contact-list-portrait.webkite-dark.xs .webkite-item-details {
-    max-width: 21.875em;
-    width: auto;
-    left: 0;
-    margin-left: 50%;
-    margin-right: -50%; }
-  #webkite-results.contact-list-portrait.webkite-dark.sm .webkite-item-details {
-    max-width: 25em;
-    width: auto;
-    left: 0;
-    margin-left: 50%;
-    margin-right: -50%; } }
+    margin-left: 0; } }
+
+@media screen and (max-height: 730px) {
+  #webkite-results.contact-list-portrait.webkite-dark .webkite-modal-content {
+    max-height: 520px; } }
+
+@media screen and (max-height: 600px) {
+  #webkite-results.contact-list-portrait.webkite-dark .webkite-modal-content {
+    max-height: 420px; } }
+
+@media screen and (max-height: 500px) {
+  #webkite-results.contact-list-portrait.webkite-dark .webkite-modal-content {
+    max-height: 320px; } }
+
+@media screen and (max-height: 400px) {
+  #webkite-results.contact-list-portrait.webkite-dark .webkite-modal-content {
+    max-height: 220px; } }
+
+@media screen and (max-height: 300px) {
+  #webkite-results.contact-list-portrait.webkite-dark .webkite-modal-content {
+    max-height: 180px; } }
 
 #webkite-results.contact-list-portrait.webkite-dark.lg .webkite-result-wrapper, #webkite-results.contact-list-portrait.webkite-dark.xl .webkite-result-wrapper {
   width: 23%; }
