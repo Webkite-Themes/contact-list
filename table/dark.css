@@ -621,8 +621,6 @@
     font-weight: 700; }
     #webkite-results.contact-list-table.webkite-dark th a:hover {
       color: rgba(255, 255, 255, 0.7); }
-#webkite-results.contact-list-table.webkite-dark td li b {
-  margin-bottom: 10px; }
 #webkite-results.contact-list-table.webkite-dark td a {
   font-size: 0.875em; }
   #webkite-results.contact-list-table.webkite-dark td a.webkite-email {
@@ -751,7 +749,8 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: inline-block;
-    vertical-align: top; }
+    vertical-align: top;
+    width: 100%; }
   #webkite-results.contact-list-table.webkite-dark .webkite-item-details img {
     -webkit-border-radius: 0.325em;
     -moz-border-radius: 0.325em;
@@ -763,14 +762,22 @@
     height: auto;
     margin-bottom: 20px; }
   #webkite-results.contact-list-table.webkite-dark .webkite-item-details li {
-    line-height: 1.2em;
+    line-height: 19px;
     padding-bottom: 20px; }
   #webkite-results.contact-list-table.webkite-dark .webkite-item-details b, #webkite-results.contact-list-table.webkite-dark .webkite-item-details span.facet-values {
     display: inline-block;
     width: 49%;
     vertical-align: top; }
+  #webkite-results.contact-list-table.webkite-dark .webkite-item-details span.facet-values {
+    padding-top: 2px;
+    line-height: 18px; }
   #webkite-results.contact-list-table.webkite-dark .webkite-item-details b {
     font-weight: 700; }
+  #webkite-results.contact-list-table.webkite-dark .webkite-item-details b:not(.inline-filter-button) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 3px;
+    margin: -3px; }
   #webkite-results.contact-list-table.webkite-dark .webkite-item-details a.webkite-website {
     display: inline-block;
     max-width: 100%;
@@ -782,8 +789,6 @@
 /************************************** INLINE FILTERS */
 #webkite-results.contact-list-table.webkite-dark .webkite-item-details li b {
   position: relative; }
-  #webkite-results.contact-list-table.webkite-dark .webkite-item-details li b.inline-filter-button + .facet-values {
-    padding-top: 5px; }
   #webkite-results.contact-list-table.webkite-dark .webkite-item-details li b > .webkite-toggle {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -801,6 +806,7 @@
     margin: 0;
     padding: 5px 20px 5px 5px;
     margin-left: -5px;
+    margin-top: -5px;
     max-width: 100%;
     position: relative;
     overflow: hidden;
