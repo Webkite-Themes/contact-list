@@ -723,11 +723,10 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     position: fixed;
-    width: 680px;
+    width: 640px;
     left: 50%;
-    top: 0;
-    margin-left: -340px;
-    padding: 20px;
+    top: 20px;
+    margin-left: -320px;
     z-index: 999999; }
     #webkite-results.contact-list-portrait.webkite-dark .webkite-item-details h2 {
       font: 700 1.5em/1 "Open Sans"; }
@@ -933,9 +932,9 @@
 /* modal sizings */
 @media screen and (max-width: 680px) {
   #webkite-results.contact-list-portrait.webkite-dark .webkite-item-details {
-    width: 400px;
+    width: 360px;
     left: 50%;
-    margin-left: -200px; }
+    margin-left: -180px; }
   #webkite-results.contact-list-portrait.webkite-dark .webkite-result-modal .webkite-modal-block-forty, #webkite-results.contact-list-portrait.webkite-dark .webkite-result-modal .webkite-modal-block-sixty {
     width: 100%;
     padding: 0; }
@@ -946,9 +945,9 @@
 
 @media screen and (max-width: 470px) {
   #webkite-results.contact-list-portrait.webkite-dark .webkite-item-details {
-    width: 320px;
+    width: 280px;
     left: 50%;
-    margin-left: -160px; }
+    margin-left: -140px; }
     #webkite-results.contact-list-portrait.webkite-dark .webkite-item-details .webkite-result-modal {
       padding-left: 5px;
       padding-right: 5px;
@@ -967,8 +966,9 @@
 
 @media screen and (max-width: 320px) {
   #webkite-results.contact-list-portrait.webkite-dark .webkite-item-details {
-    width: 100%;
-    left: 0;
+    width: auto;
+    left: 20px;
+    right: 20px;
     margin-left: 0; } }
 
 @media screen and (max-height: 730px) {
