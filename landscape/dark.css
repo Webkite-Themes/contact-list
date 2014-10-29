@@ -702,7 +702,7 @@
         display: inline; }
       #webkite-results.contact-list-landscape.webkite-dark .webkite-block ul li .city + .state:before {
         content: ", "; }
-    #webkite-results.contact-list-landscape.webkite-dark .webkite-block ul a.webkite-website, #webkite-results.contact-list-landscape.webkite-dark .webkite-block ul a.webkite-email {
+    #webkite-results.contact-list-landscape.webkite-dark .webkite-block ul a.webkite-website, #webkite-results.contact-list-landscape.webkite-dark .webkite-block ul a.webkite-email, #webkite-results.contact-list-landscape.webkite-dark .webkite-block ul a.webkite-twitter {
       display: inline-block;
       max-width: 100%;
       overflow: hidden;

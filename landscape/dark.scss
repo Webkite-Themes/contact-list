@@ -72,7 +72,8 @@ $themeName:contact-list-landscape;
         .city + .state:before{content: ", ";}
         }
 				a.webkite-website,
-				a.webkite-email{@include ellipsisThis;}    
+				a.webkite-email,
+				a.webkite-twitter{@include ellipsisThis;}    
       }
     .image-wrapper{width: 100%;}
     img {
