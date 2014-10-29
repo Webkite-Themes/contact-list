@@ -177,7 +177,8 @@ $themeName:contact-list-portrait;
       top:-9px;
       right:-10px;
       }    
-    a.webkite-website{@include ellipsisThis;}
+    a.webkite-website,
+    a.webkite-email{@include ellipsisThis;}
     a.webkite-address span{
       display: inline-block;
       width: 100%;

@@ -29,7 +29,7 @@
         {{#facet name="Email"}}
           <li>
             <b>{{downcase displayName}}</b>
-            <span class="facet-values"><a href="mailto:{{displayValue}}">{{displayValue}}</a></span>
+            <span class="facet-values"><a class="webkite-tooltip webkite-email" href="mailto:{{displayValue}}" title="{{displayValue}}">{{displayValue}}</a></span>
           </li>
         {{/facet}}
         {{#facet name="Phone Number"}}
@@ -51,14 +51,14 @@
         {{#facet name="Twitter"}}
           <li>
             <b>{{downcase displayName}}</b>
-            <span class="facet-values"><a href="https://twitter.com/{{displayValue}}" target="_blank">{{displayValue}}</a></span>
+            <span class="facet-values"><a class="webkite-tooltip webkite-twitter" href="https://twitter.com/{{displayValue}}" target="_blank" title="{{displayValue}}">{{displayValue}}</a></span>
           </li>
         {{/facet}}
         {{#facet name="University"}}
           <li>
             {{#if filterable}}
               <b class="inline-filter-button">
-                <a class="webkite-toggle" data-target=".{{../../id}}-{{name}}-menu" title="{{displayName}}">{{downcase displayName}}<i></i></a>
+                <a class="webkite-tooltip webkite-toggle" data-target=".{{../../id}}-{{name}}-menu" title="{{displayName}}" data-webkite-tooltip="touchdisabled">{{downcase displayName}}<i></i></a>
                 <ul class="{{../../id}}-{{name}}-menu inline-filter-menu webkite-hide webkite-menu">
                   {{#each filterableValues}}
                     <li><a href="#" class="webkite-add-filter webkite-toggle" data-target=".{{../../../id}}-{{../name}}-menu" data-facet="{{../name}}" data-operator="is" data-value="{{this}}">{{this}}</a></li>
@@ -78,7 +78,7 @@
           <li>
             {{#if filterable}}
               <b class="inline-filter-button">
-                <a class="webkite-toggle" data-target=".{{../../id}}-{{name}}-menu" title="{{displayName}}">{{downcase displayName}}<i></i></a>
+                <a class="webkite-tooltip webkite-toggle" data-target=".{{../../id}}-{{name}}-menu" title="{{displayName}}" data-webkite-tooltip="touchdisabled">{{downcase displayName}}<i></i></a>
                 <ul class="{{../../id}}-{{name}}-menu inline-filter-menu webkite-hide webkite-menu">
                   {{#each filterableValues}}
                     <li><a href="#" class="webkite-add-filter webkite-toggle" data-target=".{{../../../id}}-{{../name}}-menu" data-facet="{{../name}}" data-operator="is" data-value="{{this}}">{{this}}</a></li>
@@ -104,7 +104,7 @@
           <li>
             {{#if filterable}}
               <b class="inline-filter-button">
-                <a class="webkite-toggle" data-target=".{{../../id}}-{{name}}-menu" title="{{displayName}}">{{downcase displayName}}<i></i></a>
+                <a class="webkite-tooltip webkite-toggle" data-target=".{{../../id}}-{{name}}-menu" title="{{displayName}}" data-webkite-tooltip="touchdisabled">{{downcase displayName}}<i></i></a>
                 <ul class="{{../../id}}-{{name}}-menu inline-filter-menu webkite-hide webkite-menu">
                   {{#each filterableValues}}
                     <li><a href="#" class="webkite-add-filter webkite-toggle" data-target=".{{../../../id}}-{{../name}}-menu" data-facet="{{../name}}" data-operator="is" data-value="{{this}}">{{this}}</a></li>
@@ -124,7 +124,7 @@
           <li>
             {{#if filterable}}
               <b class="inline-filter-button">
-                <a class="webkite-toggle" data-target=".{{../../id}}-{{name}}-menu" title="{{displayName}}">{{downcase displayName}}<i></i></a>
+                <a class="webkite-tooltip webkite-toggle" data-target=".{{../../id}}-{{name}}-menu" title="{{displayName}}" data-webkite-tooltip="touchdisabled">{{downcase displayName}}<i></i></a>
                 <ul class="{{../../id}}-{{name}}-menu inline-filter-menu webkite-hide webkite-menu">
                   {{#each filterableValues}}
                     <li><a href="#" class="webkite-add-filter webkite-toggle" data-target=".{{../../../id}}-{{../name}}-menu" data-facet="{{../name}}" data-operator="is" data-value="{{this}}">{{this}}</a></li>

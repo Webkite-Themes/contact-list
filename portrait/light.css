@@ -829,7 +829,7 @@
       background: url("modal-close-light.png") 0 0 no-repeat;
       top: -9px;
       right: -10px; }
-    #webkite-results.contact-list-portrait.webkite-light .webkite-result-modal a.webkite-website {
+    #webkite-results.contact-list-portrait.webkite-light .webkite-result-modal a.webkite-website, #webkite-results.contact-list-portrait.webkite-light .webkite-result-modal a.webkite-email {
       display: inline-block;
       max-width: 100%;
       overflow: hidden;
