@@ -237,7 +237,8 @@ $themeName:contact-list-table;
         padding:3px;
         margin:-3px;
         }
-      a.webkite-website{
+      a.webkite-website,
+      a.webkite-twitter{
         @include ellipsisThis; 
         max-width: 10em;
         }

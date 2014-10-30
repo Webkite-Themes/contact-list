@@ -855,7 +855,7 @@
     text-overflow: ellipsis;
     padding: 3px;
     margin: -3px; }
-  #webkite-results.contact-list-table.webkite-dark .webkite-item-details a.webkite-website {
+  #webkite-results.contact-list-table.webkite-dark .webkite-item-details a.webkite-website, #webkite-results.contact-list-table.webkite-dark .webkite-item-details a.webkite-twitter {
     display: inline-block;
     max-width: 100%;
     overflow: hidden;

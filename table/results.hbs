@@ -45,7 +45,7 @@
                   {{#facet name="Email"}}
                     <li>
                       <b class="xs-only">{{downcase displayName}}</b>
-                      <span class="facet-values"><a href="mailto:{{displayValue}}" class="webkite-email">{{displayValue}}</a></span>
+                      <span class="facet-values"><a href="mailto:{{displayValue}}" class="webkite-tooltip webkite-email" title="{{displayValue}}">{{displayValue}}</a></span>
                     </li>
                   {{/facet}}
                   {{#any (find facets name="Address 1") (find facets name="City") (find facets name="State") (find facets name="Zip Code") (find facets name="Country") (find facets name="Address 2")}}
@@ -104,7 +104,7 @@
               </div>
             </td>
             <td class="webkite-phone md-only">
-              {{#facet name="Phone Number"}}<a href="tel:{{displayValue}}">{{displayValue}}</a>{{/facet}}
+              {{#facet name="Phone Number"}}<a class="webkite-tooltip" href="tel:{{displayValue}}" title="{{displayValue}}">{{displayValue}}</a>{{/facet}}
             </td>
             <td class="open-toggle">
               {{#any (find facets name="Image") (find facets name="Website") (find facets name="Twitter") (find facets name="University") (find facets name="Degree") (find facets name="Year of Graduation") (find facets name="Employer") (find facets name="Department") (find facets name="Job Title")}}
